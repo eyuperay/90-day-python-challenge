@@ -1,0 +1,15 @@
+# 90-Day Python Challenge
+
+This repository contains all Python exercises completed during a 90-day intensive Python learning program.  
+The goal of this challenge was to build a strong foundation in Python programming, including variables, data types, loops, functions, and more.
+
+### 01_variable_types.py
+
+**Description:**  
+This Python script collects personal information from the user including first name, last name, birth year, and height. Using this data, it calculates the user's age dynamically based on the current year and displays a professional, formatted message using f-strings.
+
+**Key Features:**
+- Demonstrates user input handling in Python
+- Uses **type hints** for all variables for clarity and better code readability
+- Dynamically calculates age using the `datetime` module
+- Outputs a polished, professional sentence using f-strings
