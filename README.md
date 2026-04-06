@@ -13,3 +13,10 @@ This Python script collects personal information from the user including first n
 - Uses **type hints** for all variables for clarity and better code readability
 - Dynamically calculates age using the `datetime` module
 - Outputs a polished, professional sentence using f-strings
+
+###  02_data_structures.py  
+**Description:**  
+Created a product inventory list and managed it using list operations.  
+Removed and added products, sliced the list to get popular products.  
+Stored stock information in a dictionary and calculated total stock using a loop.  
+Applied list comprehension to filter products with names longer than 5 characters.
