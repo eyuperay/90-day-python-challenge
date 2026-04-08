@@ -27,7 +27,7 @@ def scope_demo():
     print("Local variable inside function:", local_variable)
 
 
-# 🔥 TEST / USAGE (ÖDEVİN EKSİK OLAN KISMI)
+# TEST / USAGE 
 
 # 1. clean_text
 text = "   Hello World   "
