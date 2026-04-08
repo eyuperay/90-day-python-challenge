@@ -38,3 +38,32 @@ Skipped invalid transactions (zero or negative values) using `continue`.
 Detected suspicious transactions (999.99) and logged them without stopping execution.  
 Identified premium transactions (amount > 1000) and stored them in a list.  
 Calculated total and average of all valid transactions.
+
+## Day 04
+**Project:** 04_functions_and_scope.py  
+**Description:**
+
+The goal of this task is to implement basic Python functions and understand variable scope.
+
+####  Requirements
+
+- `clean_text(text: str) -> str`  
+  Write a function that takes a string, removes leading and trailing whitespace, and converts all characters to lowercase.
+
+- `calculate_tax(price: float, tax_rate: float = 0.18) -> float`  
+  Write a function that takes a price and a tax rate, and returns the total price including tax.  
+  If no tax rate is provided, use a default value of `0.18`.
+
+- `is_outlier(value: float, threshold: float = 100.0) -> bool`  
+  Write a function that takes a numeric value and returns `True` if it exceeds the given threshold.
+
+#### Scope Experiment
+
+- Define a global variable named `global_counter` outside of any function.
+- Inside a function, print this variable without modifying it.
+- Create a local variable inside the function.
+- Explain (using comments) why this local variable causes an error when accessed outside the function.
+
+#### Clean Code
+
+- Add a short docstring to each function explaining its purpose.
