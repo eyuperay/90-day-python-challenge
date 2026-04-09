@@ -46,6 +46,6 @@ print("Is outlier:", is_outlier(value))
 scope_demo()
 
 # print(local_variable)
-# ❌ This will raise an error because:
+# This will raise an error because:
 # local_variable is defined inside the function (local scope)
 # and cannot be accessed outside the function.
