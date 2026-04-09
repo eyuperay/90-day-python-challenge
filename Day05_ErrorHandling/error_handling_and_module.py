@@ -6,7 +6,7 @@ from the 'utils.py' module. It includes:
 - Performing a safe division between two user-provided numbers.
 - Validating user-provided age input using exception handling.
 
-For detailed explanations of the functions and concepts, please refer to the README.md file in this folder.
+For detailed explanations of the functions and concepts, please refer to the README.md file.
 """
 
 from utils import safe_divide, validate_age
