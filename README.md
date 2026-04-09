@@ -67,3 +67,31 @@ The goal of this task is to implement basic Python functions and understand vari
 #### Clean Code
 
 - Add a short docstring to each function explaining its purpose.
+
+## Day 05
+**Projects:** 05_error_handling_and_modules.py, utils.py  
+**Description:**
+
+The goal of this task is to implement basic error handling in Python and understand modular programming.
+
+#### Requirements
+
+- `safe_divide(a: float, b: float) -> float`  
+  Write a function that performs division.  
+  If `b` is zero, handle the error and return `0.0` with a warning message.
+
+- `validate_age(age: int) -> bool`  
+  Write a function that checks if the age is valid.  
+  If the age is less than 0, raise a `ValueError`.
+
+#### Main Program
+
+- Import functions from `utils.py`.
+- Take two numbers from the user and safely divide them.
+- Take an age input from the user.
+- Use a `try-except` block to handle possible errors during validation.
+
+#### Clean Code
+
+- Add a short docstring to each function explaining its purpose.
+- Use clear and readable structure in the main script.
