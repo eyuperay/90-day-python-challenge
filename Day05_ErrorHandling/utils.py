@@ -5,7 +5,7 @@ This module contains helper functions used in the main program:
 - safe_divide: Performs division safely with zero-check.
 - validate_age: Validates that an age is non-negative.
 
-For detailed explanations and usage examples, please refer to the README.md file in this folder.
+For detailed explanations and usage examples, please refer to the README.md file.
 """
 
 def safe_divide(a: float, b: float) -> float:
