@@ -1,0 +1,30 @@
+{
+    "total_sales": 7030.0,
+    "best_category": "Electronics",
+    "premium_sales": [
+        {
+            "Customer": "John Smith",
+            "Product": "Phone",
+            "Category": "Electronics",
+            "Price": 1200.0
+        },
+        {
+            "Customer": "Emma Johnson",
+            "Product": "Laptop",
+            "Category": "Electronics",
+            "Price": 2500.0
+        },
+        {
+            "Customer": "Daniel Taylor",
+            "Product": "Monitor",
+            "Category": "Electronics",
+            "Price": 900.0
+        },
+        {
+            "Customer": "Isabella Anderson",
+            "Product": "Bed",
+            "Category": "Furniture",
+            "Price": 1200.0
+        }
+    ]
+}

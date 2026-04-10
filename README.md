@@ -120,3 +120,54 @@ Provide informative messages if a file is missing or cannot be written.
 Notes
 
 This task emphasizes practical file operations and error handling in Python.
+
+## Day 07
+
+Project: Sales Analysis and Reporting System (S.A.R.S)
+
+Description:
+
+The goal of this task is to practice data processing, cleaning, and analysis using Python by building a modular system that handles real-world sales data.
+
+Requirements
+
+Raw Data Handling
+Create a file named sales_data.csv containing customer, product, category, and price information.
+Read the CSV file and store the data in a suitable Python structure (list of dictionaries).
+
+Data Cleaning
+Remove rows with invalid or non-numeric prices.
+Remove rows with negative price values.
+Standardize customer names (capitalize first letter).
+Log all invalid records into a file named errors.log.
+
+Data Analysis
+Calculate the total sales amount.
+Find the best-performing category based on total sales.
+Identify and list "premium" sales (sales above a certain threshold, e.g., 1000).
+
+JSON Export
+Create a file named report.json.
+Store the analysis results in a structured and readable JSON format.
+
+Modular Structure
+Split the project into at least two files:
+
+data_utils.py → data cleaning and analysis functions
+main.py → main execution flow
+
+Error Handling
+Use try-except blocks to handle:
+
+File not found errors
+Data conversion errors
+Ensure the program does not crash and provides meaningful messages.
+
+Professional Standards
+Use type hinting for all functions.
+Write clear and descriptive docstrings.
+Follow PEP8 naming and formatting conventions.
+
+Notes
+
+This task simulates a real-world data analyst workflow, focusing on data cleaning, analysis, modular coding, and professional software development practices.

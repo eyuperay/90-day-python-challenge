@@ -1,0 +1,2 @@
+Invalid price removed: {'Customer': 'James Wilson', 'Product': 'Sofa', 'Category': 'Furniture', 'Price': '-500'}
+Invalid price removed: {'Customer': 'Ethan Thomas', 'Product': 'Keyboard', 'Category': 'Electronics', 'Price': '0'}
