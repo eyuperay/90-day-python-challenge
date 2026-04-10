@@ -95,3 +95,28 @@ The goal of this task is to implement basic error handling in Python and underst
 
 - Add a short docstring to each function explaining its purpose.
 - Use clear and readable structure in the main script.
+
+## Day 06
+
+Project: 06_file_management.py
+Description:
+
+The goal of this task is to practice file handling in Python, including reading, writing, and filtering data in different formats.
+
+Requirements
+Raw Data Handling
+Create a file named raw_data.txt containing some random names and ages.
+Read the file and store the data in a Python list or dictionary.
+JSON Export
+Create a file named data.json and save the collected data in a professional JSON format.
+CSV Challenge
+Create a file named students.csv containing two columns: Name and Grade.
+Read this file and select students with a grade above 70.
+Save these students in a new file named passed_students.csv.
+Try-Except Blocks
+Handle file reading/writing errors gracefully.
+Provide informative messages if a file is missing or cannot be written.
+
+Notes
+
+This task emphasizes practical file operations and error handling in Python.
