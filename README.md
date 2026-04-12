@@ -171,3 +171,45 @@ Follow PEP8 naming and formatting conventions.
 Notes
 
 This task simulates a real-world data analyst workflow, focusing on data cleaning, analysis, modular coding, and professional software development practices.
+
+## Day 08
+
+Project: 08_classes_and_objects.py
+Description:
+
+The goal of this task is to practice Object-Oriented Programming (OOP) in Python by designing a simple data source management system.
+
+Requirements
+
+Class Definition
+Create a class named DataSource.
+
+Constructor (init)
+The class should initialize with the following attributes:
+
+source_name (string)
+file_type (string)
+row_count (integer)
+
+Methods
+Implement the following methods inside the class:
+
+describe() → Display the data source information in a formatted way.
+update_row_count(new_count) → Update the row count value.
+
+Object Creation
+Create at least two objects:
+
+Customer List (CSV)
+Sales Data (JSON)
+
+Method Usage
+Call the methods to:
+
+Display initial data
+Update row counts
+Display updated data
+
+Notes
+
+This task focuses on understanding classes, objects, attributes, and methods, which are fundamental concepts in Object-Oriented Programming.
