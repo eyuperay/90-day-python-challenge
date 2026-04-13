@@ -213,3 +213,44 @@ Display updated data
 Notes
 
 This task focuses on understanding classes, objects, attributes, and methods, which are fundamental concepts in Object-Oriented Programming.
+
+## Day 09
+
+Project: 09_inheritance.py
+
+Description:
+
+The goal of this task is to understand and implement object-oriented programming concepts in Python, specifically inheritance and method overriding.
+
+Requirements
+
+Base Class
+Create a class named `BaseModel`.
+Define an `__init__` method that takes `model_name` and `version` as parameters.
+Add a method named `train()` that prints "Model is being trained...".
+
+NLP Model
+Create a class named `NLPModel` that inherits from `BaseModel`.
+Add an extra attribute called `language`.
+Override the `train()` method to print a customized message like:
+"NLP model is being trained for [language]...".
+
+Vision Model
+Create a class named `VisionModel` that inherits from `BaseModel`.
+Add an extra attribute called `resolution`.
+
+Usage
+Create one object from each class (`NLPModel` and `VisionModel`).
+Assign appropriate values to their attributes.
+Call their `train()` methods to observe the difference in behavior.
+
+Concepts Covered
+
+* Inheritance
+* Method overriding
+* Use of `super()`
+* Class structure and object creation
+
+Notes
+
+This task focuses on understanding how base classes can be extended and customized through inheritance, a key concept in object-oriented programming.
