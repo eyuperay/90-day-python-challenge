@@ -254,3 +254,40 @@ Concepts Covered
 Notes
 
 This task focuses on understanding how base classes can be extended and customized through inheritance, a key concept in object-oriented programming.
+
+## Day 10
+
+Project: 10_encapsulation.py  
+
+Description:
+
+The goal of this task is to understand and implement the concept of encapsulation in Python by controlling access to class attributes using private and protected variables.
+
+Requirements
+
+Database Connector Class  
+Create a class named `DatabaseConnector`.
+
+Initialization  
+Define a constructor (`__init__`) that takes a `connection_string` parameter.  
+Store it as a private attribute (`__connection_string`).  
+Define a protected attribute (`_status`) to track connection status.
+
+Getter Method  
+Create a getter method for `connection_string`.  
+It should return a masked version of the string:  
+- Show only the first 10 characters  
+- Replace the rest with `*`
+
+Setter Method  
+Create a setter method for `connection_string`.  
+It should validate the input:  
+- If the new string does not start with `"http"`, raise a `ValueError`.
+
+Encapsulation Test  
+Try to access the private attribute directly from outside the class and observe the error.  
+Then use the getter and setter methods to access and modify the value safely.
+
+Notes
+
+This task demonstrates how encapsulation improves data security and control in object-oriented programming.
