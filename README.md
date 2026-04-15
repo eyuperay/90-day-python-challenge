@@ -291,3 +291,37 @@ Then use the getter and setter methods to access and modify the value safely.
 Notes
 
 This task demonstrates how encapsulation improves data security and control in object-oriented programming.
+
+## Day 11
+
+Project: 11_polymorphism.py  
+
+Description:
+
+The goal of this task is to understand and implement polymorphism in Python by creating a flexible metric evaluation system where different classes share the same method name but produce different outputs.
+
+Requirements
+
+Base Class  
+Create a class named `Metric`.  
+Define a method called `calculate()` that prints:  
+"Metric is being calculated..."
+
+Accuracy Metric  
+Create a class named `AccuracyMetric` that inherits from `Metric`.  
+Override the `calculate()` method to print:  
+"Accuracy is being calculated..."
+
+Precision Metric  
+Create a class named `PrecisionMetric` that inherits from `Metric`.  
+Override the `calculate()` method to print:  
+"Precision is being calculated..."
+
+Polymorphism Demonstration  
+Create a list called `metrics_list` and store objects of the above classes.  
+Loop through the list and call the `calculate()` method on each object.  
+Observe how the same method name produces different outputs depending on the object type.
+
+Notes
+
+This task demonstrates polymorphism, a core concept of object-oriented programming where the same interface behaves differently based on the object implementation.
