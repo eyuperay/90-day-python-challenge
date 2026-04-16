@@ -325,3 +325,40 @@ Observe how the same method name produces different outputs depending on the obj
 Notes
 
 This task demonstrates polymorphism, a core concept of object-oriented programming where the same interface behaves differently based on the object implementation.
+
+## Day 12
+
+Project: 12_dunder_methods.py  
+
+Description:
+
+The goal of this task is to understand and implement special (dunder) methods in Python by creating a custom Dataset class that behaves like built-in data structures.
+
+Requirements
+
+Dataset Class  
+Create a class named `Dataset`.  
+Define an `__init__` method that takes `data` (list) and `name` (string).
+
+String Representation  
+Implement the `__str__` method.  
+When the object is printed, it should display:  
+"Dataset: [name] ([number] records)"
+
+Length Support  
+Implement the `__len__` method.  
+It should return the number of elements in the dataset.
+
+Addition Operator  
+Implement the `__add__` method.  
+When two Dataset objects are added using `+`, their data should be combined.  
+Return a new Dataset object containing the merged data.
+
+Testing  
+Create two dataset objects.  
+Combine them using the `+` operator.  
+Use `len()` to verify the total number of records and print the result.
+
+Notes
+
+This task demonstrates how Python's special methods allow custom objects to behave like built-in types, improving usability and readability.
