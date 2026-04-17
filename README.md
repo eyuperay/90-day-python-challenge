@@ -362,3 +362,36 @@ Use `len()` to verify the total number of records and print the result.
 Notes
 
 This task demonstrates how Python's special methods allow custom objects to behave like built-in types, improving usability and readability.
+
+
+## Day 13
+
+Project: 13_advanced_python_tools.py  
+
+Description:
+
+The goal of this task is to explore advanced Python tools such as decorators, generators, and type hinting by simulating a simple data processing pipeline.
+
+Requirements
+
+Decorator  
+Create a decorator named `log_execution`.  
+It should print when a function starts and when it finishes execution.
+
+Generator  
+Create a generator function named `data_streamer`.  
+It should yield items from a given list one by one.  
+Before yielding each item, print a message indicating that the data is being processed.
+
+Application  
+Create a large dataset (e.g., using `range(100)`).  
+Iterate over the dataset using the generator.  
+Process each item using a function decorated with `log_execution`.
+
+Clean Code  
+Use type hints such as `Callable` and `Iterator` from the `typing` module.  
+Write clear and readable code with proper structure.
+
+Notes
+
+This task demonstrates how decorators and generators can be combined to build efficient and traceable data processing workflows in Python.
