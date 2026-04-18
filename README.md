@@ -395,3 +395,46 @@ Write clear and readable code with proper structure.
 Notes
 
 This task demonstrates how decorators and generators can be combined to build efficient and traceable data processing workflows in Python.
+
+
+## Day 14
+
+Project: Smart Data Processing and Analysis Pipeline
+
+Description:
+
+The goal of this project is to build a modular and scalable data processing pipeline that handles multiple data sources (CSV, JSON, and lists) using object-oriented programming, generators, and decorators. The system is designed to be memory efficient and suitable for large-scale data processing.
+
+Requirements
+
+Base Processor (OOP & Inheritance)  
+Create a base class named `BaseProcessor`.  
+This class defines common behavior for all data processors.
+
+CSV Processor  
+Create a class named `CSVProcessor` that inherits from `BaseProcessor`.  
+It should read CSV files and process data line by line.
+
+JSON Processor  
+Create a class named `JSONProcessor` that inherits from `BaseProcessor`.  
+It should read JSON files and process data accordingly.
+
+Generators (Memory Efficiency)  
+Use generator functions to yield data line by line instead of loading the entire dataset into memory.  
+This simulates processing large-scale datasets efficiently.
+
+Decorator (Performance Tracking)  
+Create a decorator named `time_logger`.  
+It should measure and print the execution time of data processing functions.
+
+Dunder Methods  
+Implement `__len__` to return the total number of processed records.  
+Implement `__str__` to return information about the processor.
+
+Encapsulation & Error Handling  
+Store file paths as protected attributes (`_file_path`).  
+Use try-except blocks to handle invalid file formats or missing files.
+
+Notes
+This project demonstrates real-world data pipeline architecture using Python.  
+It combines object-oriented programming, generators, decorators, and error handling to create a scalable and memory-efficient system.
