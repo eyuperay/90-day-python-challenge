@@ -438,3 +438,32 @@ Use try-except blocks to handle invalid file formats or missing files.
 Notes
 This project demonstrates real-world data pipeline architecture using Python.  
 It combines object-oriented programming, generators, decorators, and error handling to create a scalable and memory-efficient system.
+
+## Day 15
+
+Project: 15_numpy_basics.py
+
+Description:
+
+The goal of this task is to practice NumPy operations for analyzing AI model prediction data. This includes statistical analysis, vectorized operations, filtering, and matrix reshaping.
+
+Requirements
+
+Random Data Generation
+Create a NumPy array named `predictions` containing 100 random floating-point numbers between 0 and 1.
+
+Statistical Analysis
+Calculate the mean, standard deviation, and variance of the predictions.
+
+Vectorized Operations
+Multiply all prediction values by 100 and convert them to integers without using loops.
+
+Filtering
+Select prediction values greater than 50 using boolean indexing and store them in a new array.
+
+Matrix Transformation (Bonus)
+Reshape the 100-element array into a 10x10 matrix.
+
+Notes
+
+This task emphasizes efficient numerical computation using NumPy and introduces key concepts used in data analysis and machine learning workflows.
