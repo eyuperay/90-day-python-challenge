@@ -467,3 +467,35 @@ Reshape the 100-element array into a 10x10 matrix.
 Notes
 
 This task emphasizes efficient numerical computation using NumPy and introduces key concepts used in data analysis and machine learning workflows.
+
+## Day 16
+
+Project: 16_pandas_dataframe_basics.py
+
+Description:
+
+The goal of this task is to practice basic data analysis using Pandas DataFrames. It includes data creation, filtering, statistical analysis, and sorting operations.
+
+Requirements
+
+Data Creation
+Create a dictionary containing employee information such as Name, Department, Experience, and Salary.
+
+DataFrame Conversion
+Convert the dictionary into a Pandas DataFrame.
+
+Data Exploration
+Display the first 3 rows of the DataFrame.
+
+Filtering
+Filter and display employees who work in the Software department.
+
+Statistical Analysis
+Calculate the average salary and total years of experience.
+
+Sorting (Bonus)
+Sort the DataFrame by Experience in descending order.
+
+Notes
+
+This task introduces fundamental Pandas operations used in real-world data analysis workflows.
