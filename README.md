@@ -499,3 +499,33 @@ Sort the DataFrame by Experience in descending order.
 Notes
 
 This task introduces fundamental Pandas operations used in real-world data analysis workflows.
+
+## Day 17
+
+Project: 17_data_cleaning.py
+
+Description:
+
+The goal of this task is to practice data cleaning techniques on a raw e-commerce dataset. This includes handling missing values, removing duplicates, correcting invalid data, and standardizing categorical values.
+
+Requirements
+
+Data Preparation
+Create a raw dataset containing order information such as Order ID, Customer, Amount, and City.
+
+Duplicate Handling
+Identify duplicate rows using .duplicated() and remove them using .drop_duplicates().
+
+Missing Data Handling
+Fill missing Customer values with "Unknown Customer".
+Fill missing Amount values with the column mean.
+
+Data Correction
+Fix invalid values such as negative amounts.
+
+Data Standardization
+Ensure consistency in City names using replacement techniques.
+
+Notes
+
+This task focuses on real-world data cleaning processes commonly used in data analysis and machine learning pipelines.
