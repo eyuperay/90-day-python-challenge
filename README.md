@@ -529,3 +529,33 @@ Ensure consistency in City names using replacement techniques.
 Notes
 
 This task focuses on real-world data cleaning processes commonly used in data analysis and machine learning pipelines.
+
+## Day 18
+
+Project: 18_pandas_groupby_analysis.py
+
+Description:
+
+The goal of this task is to practice grouping and aggregation techniques using Pandas. This includes summarizing data by categories, calculating statistics, and analyzing sales performance.
+
+Requirements
+
+Data Creation
+Create a DataFrame containing sales representative, region, sales amount, and units sold.
+
+GroupBy Analysis
+Calculate total sales amount by region.
+
+Sorting
+Find the average units sold per sales representative and sort the results in descending order.
+
+Multiple Aggregations
+Use the .agg() method to calculate multiple statistics (total sales and maximum units sold) for each region.
+
+Filtering + Grouping
+Filter records where sales amount is greater than 5000 and count them by region.
+
+Notes
+
+This task introduces the core concept of "split-apply-combine", which is fundamental in data analysis and real-world data pipelines.
+
