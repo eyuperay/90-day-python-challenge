@@ -559,3 +559,31 @@ Notes
 
 This task introduces the core concept of "split-apply-combine", which is fundamental in data analysis and real-world data pipelines.
 
+## Day 19
+
+Project: 19_pandas_merging_data.py
+
+Description:
+
+The goal of this task is to practice combining multiple datasets using Pandas. In real-world applications, data is often split across multiple sources, and merging them correctly is essential for analysis and machine learning workflows.
+
+Requirements
+
+DataFrames Creation
+Create a Users DataFrame containing user information (user_id, name, email).
+Create an Activity DataFrame containing user activity logs (user_id, last_login, total_spend).
+
+Inner Join
+Perform an inner merge to return only users who have matching activity records.
+
+Left Join
+Perform a left merge to keep all users, including those without activity data.
+
+Concatenation
+Create a new DataFrame with additional users and append it to the original dataset using concatenation.
+
+Notes
+
+This task demonstrates the core concepts of relational data handling in Pandas, similar to SQL join operations used in databases.
+
+
