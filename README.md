@@ -586,4 +586,33 @@ Notes
 
 This task demonstrates the core concepts of relational data handling in Pandas, similar to SQL join operations used in databases.
 
+## Day 20
+
+Project: 20_time_series_and_transforms.py
+
+Description:
+
+The goal of this task is to learn how to work with time-series data in Pandas. Time-based data is essential for monitoring systems, financial analysis, and AI service performance tracking.
+
+Requirements
+
+Datetime Conversion
+Convert string timestamps into proper datetime objects using pd.to_datetime().
+
+Feature Engineering
+Create a new column that identifies whether a timestamp falls on a weekend.
+
+Custom Transformations
+Use the .apply() method to classify response times as "High Latency" or "Optimal".
+
+Time-Based Aggregation
+Resample the data to calculate the average response time per day.
+
+Error Handling
+Handle potential datetime conversion errors using try-except blocks.
+
+Notes
+
+This project introduces time-series fundamentals used in real-world monitoring and analytics systems.
+
 
