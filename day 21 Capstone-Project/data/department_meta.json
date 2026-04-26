@@ -1,0 +1,5 @@
+[
+  {"department_id": 101, "department_name": "Finance", "budget_limit": 2000},
+  {"department_id": 102, "department_name": "IT", "budget_limit": 2500},
+  {"department_id": 103, "department_name": "HR", "budget_limit": 1800}
+]

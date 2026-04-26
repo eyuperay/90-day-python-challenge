@@ -615,4 +615,37 @@ Notes
 
 This project introduces time-series fundamentals used in real-world monitoring and analytics systems.
 
+## day 21 Capstone Project
 
+Project: Automated Financial & Operational Health Report
+
+Description:
+
+This project builds an end-to-end data pipeline that processes raw transaction data, cleans inconsistencies, merges department metadata, and generates a financial health report.
+
+Steps Performed:
+
+1. Data Loading:
+   Transactions loaded from CSV and department metadata from JSON.
+
+2. Data Cleaning:
+   - Removed duplicate transaction IDs
+   - Converted transaction_date to datetime
+   - Filled missing values using department median
+
+3. Data Merging:
+   Left join used to attach department metadata to transactions
+
+4. Feature Engineering:
+   - Budget status calculated based on department limits
+   - 7-day rolling average of transaction amounts computed
+
+5. Output:
+   Final cleaned dataset exported as CSV
+   Processing logs stored in process.log
+
+Tools Used:
+- Pandas
+- Python datetime
+- Custom decorators
+- Modular Python design

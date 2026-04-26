@@ -1,0 +1,8 @@
+transaction_id,transaction_date,department_id,amount,department_name,budget_limit,budget_status,rolling_avg_7d
+1,2026-04-01,101,500.0,Finance,2000,Within Budget,
+2,2026-04-02,102,700.0,IT,2500,Within Budget,
+3,2026-04-02,101,500.0,Finance,2000,Within Budget,
+4,2026-04-03,103,1200.0,HR,1800,Over Budget,
+5,2026-04-03,101,500.0,Finance,2000,Within Budget,
+6,2026-04-04,102,900.0,IT,2500,Within Budget,
+7,2026-04-04,103,1100.0,HR,1800,Over Budget,771.4285714285714
