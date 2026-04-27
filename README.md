@@ -701,3 +701,68 @@ In this project, we explore data visualization using Matplotlib and Seaborn. The
 ### How to Run:
 ```bash
 pip install matplotlib seaborn
+
+## Day 23 - Statistical Distributions and Outlier Detection
+
+### Project: AI Inference Latency Analysis
+
+### Description:
+This project analyzes the distribution of AI model inference latency values and detects abnormal values (outliers) using statistical methods. It combines data visualization with mathematical anomaly detection.
+
+---
+
+### What This Project Does:
+
+#### 1. Data Generation
+- Creates 1000 synthetic latency values using a normal distribution
+- Adds artificial extreme values (outliers)
+
+---
+
+#### 2. Data Visualization
+
+##### Histogram + KDE Plot:
+- Shows the distribution of latency values
+- Includes a smooth density curve (KDE)
+- Helps identify skewness and spread of data
+
+##### Box Plot:
+- Visualizes median, quartiles, and outliers
+- Clearly highlights abnormal values
+
+---
+
+#### 3. Outlier Detection (IQR Method)
+
+The Interquartile Range (IQR) method is used:
+
+- Q1 = 25th percentile
+- Q3 = 75th percentile
+- IQR = Q3 - Q1
+
+Outliers are defined as:
+- Values below Q1 - 1.5 * IQR
+- Values above Q3 + 1.5 * IQR
+
+---
+
+### Technologies Used:
+- Python
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+### Key Learning Objectives:
+- Understanding statistical distributions
+- Identifying skewed data patterns
+- Detecting outliers using IQR method
+- Visualizing distributions with histograms and box plots
+- Applying basic statistical reasoning in AI monitoring
+
+---
+
+### How to Run:
+```bash
+pip install numpy matplotlib seaborn
