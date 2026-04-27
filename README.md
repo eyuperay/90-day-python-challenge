@@ -702,6 +702,8 @@ In this project, we explore data visualization using Matplotlib and Seaborn. The
 ```bash
 pip install matplotlib seaborn
 
+
+
 ## Day 23 - Statistical Distributions and Outlier Detection
 
 ### Project: AI Inference Latency Analysis
