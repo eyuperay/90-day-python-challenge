@@ -698,10 +698,6 @@ In this project, we explore data visualization using Matplotlib and Seaborn. The
 
 ---
 
-### How to Run:
-```bash
-pip install matplotlib seaborn
-
 
 
 ## Day 23 - Statistical Distributions and Outlier Detection
