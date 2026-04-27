@@ -649,3 +649,55 @@ Tools Used:
 - Python datetime
 - Custom decorators
 - Modular Python design
+
+## Day 22 - Introduction to Data Visualization (Matplotlib & Seaborn)
+
+### Project: Model Performance Visualization
+
+### Description:
+In this project, we explore data visualization using Matplotlib and Seaborn. The goal is to visually compare model performance over training epochs and analyze relationships in real-world datasets.
+
+---
+
+### What This Project Does:
+
+#### 1. Matplotlib Visualization
+- Simulates training accuracy for two models (Model A and Model B)
+- Plots accuracy over 10 epochs
+- Adds:
+  - Title: Model Training Progress
+  - X-axis: Epochs
+  - Y-axis: Accuracy
+  - Legend for comparison
+
+#### 2. Seaborn Visualization
+- Uses built-in `tips` dataset
+- Creates a scatter plot showing relationship between:
+  - Total bill
+  - Tip amount
+- Uses:
+  - color grouping by day
+  - whitegrid style for better readability
+
+---
+
+### Technologies Used:
+- Python
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+### Key Learning Objectives:
+- Understanding basic plotting with Matplotlib
+- Creating statistical visualizations with Seaborn
+- Comparing model performance visually
+- Working with real-world datasets
+- Improving data storytelling skills
+
+---
+
+### How to Run:
+```bash
+pip install matplotlib seaborn
