@@ -762,5 +762,78 @@ Outliers are defined as:
 ---
 
 ### How to Run:
+bash
+pip install numpy matplotlib seaborn  
+
+## Day 24 - Categorical Relationships and Correlation Heatmaps
+
+### Project: AI Treasury Process Analysis
+
+### Description:
+This project analyzes relationships between system performance metrics and identifies patterns between categorical and numerical variables using correlation analysis and visualization techniques.
+
+---
+
+### What This Project Does:
+
+#### 1. Synthetic Dataset Creation
+The dataset includes:
+- Processing_Time
+- Error_Rate
+- Token_Usage
+- Cost
+- Success_Rate
+- Model_Type (categorical)
+
+---
+
+#### 2. Correlation Analysis
+- Computes Pearson correlation between numerical features using `.corr()`
+- Measures relationships between variables:
+  - Positive correlation (close to +1)
+  - Negative correlation (close to -1)
+  - No correlation (close to 0)
+
+---
+
+#### 3. Heatmap Visualization
+- Uses `sns.heatmap()`
+- Displays correlation matrix visually
+- Includes numeric annotations for clarity
+- Uses `coolwarm` color palette
+
+---
+
+#### 4. Categorical Analysis
+- Uses `sns.barplot()`
+- Shows average Error Rate per Model Type
+- Helps compare performance across models
+
+---
+
+#### 5. Output Export
+- Saves correlation matrix as `correlation_matrix.csv` for documentation and analysis
+
+---
+
+### Technologies Used:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+### Key Learning Objectives:
+- Understanding feature correlation
+- Interpreting heatmaps
+- Comparing categorical groups statistically
+- Combining visualization + data analysis
+- Preparing data for AI model evaluation
+
+---
+
+### How to Run:
 ```bash
-pip install numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn
