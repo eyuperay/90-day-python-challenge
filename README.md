@@ -835,5 +835,71 @@ The dataset includes:
 ---
 
 ### How to Run:
-```bash
+bash
 pip install pandas numpy matplotlib seaborn
+
+## Day 25 - Interactive Data Visualization with Plotly
+
+### Project: Treasury Operational Dashboard
+
+### Description:
+This project introduces interactive data visualization using Plotly. It simulates a financial monitoring dashboard for analyzing transaction behavior across different regions.
+
+---
+
+### What This Project Does:
+
+#### 1. Dataset Creation
+- Simulates 200 financial transactions
+- Includes:
+  - Date
+  - Amount
+  - Region
+  - Transaction Fee
+
+---
+
+#### 2. Interactive Scatter Plot
+- Uses `plotly.express.scatter`
+- Shows relationship between:
+  - Transaction Amount
+  - Transaction Fee
+- Features:
+  - Color-coded regions
+  - Hover tooltips showing date
+  - Fully interactive zoom and pan
+
+---
+
+#### 3. Interactive Bar Chart
+- Aggregates total transaction amount by region
+- Displays comparative regional performance
+
+---
+
+#### 4. HTML Export
+- Saves interactive chart as:
+  - `transaction_report.html`
+- Can be opened in any browser without Python
+
+---
+
+### Technologies Used:
+- Python
+- Pandas
+- NumPy
+- Plotly
+
+---
+
+### Key Learning Objectives:
+- Building interactive charts
+- Using hover and color dimensions
+- Creating browser-based dashboards
+- Exporting visualizations to HTML
+- Understanding modern BI tools (like Power BI / Tableau logic)
+
+---
+
+### How to Run:
+pip install plotly pandas numpy
