@@ -903,3 +903,70 @@ This project introduces interactive data visualization using Plotly. It simulate
 
 ### How to Run:
 pip install plotly pandas numpy
+
+## Day 26 - EDA Part 1: Investigation & Hypothesis Building
+
+### Project: Automated Invoice Processing Analysis
+
+---
+
+## Description
+This project performs the first stage of Exploratory Data Analysis (EDA) on an invoice dataset. The goal is to understand structure, detect missing values, and explore relationships between variables.
+
+---
+
+## Dataset Features
+- Invoice_ID: Unique identifier for invoices
+- Vendor_Category: Type of vendor
+- Invoice_Amount: Payment amount (contains missing values)
+- Days_to_Pay: Payment delay in days
+- Approval_Status: Invoice approval state
+
+---
+
+## EDA Workflow
+
+### 1. Data Overview
+- `.info()` for structure
+- `.describe()` for statistical summary
+
+---
+
+### 2. Missing Value Analysis
+- Heatmap visualization of missing data
+- Helps identify data quality issues
+
+---
+
+### 3. Univariate Analysis
+- Distribution of Invoice Amount
+- KDE + histogram to detect skewness
+
+---
+
+### 4. Bivariate Analysis
+- Vendor Category vs Invoice Amount
+- Boxplot used for comparison
+
+---
+
+## Key Insight Goals
+- Identify missing data patterns
+- Detect skewed financial distributions
+- Compare vendor pricing behavior
+- Build hypotheses for further analysis
+
+---
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## How to Run
+bash
+pip install pandas numpy matplotlib seaborn
