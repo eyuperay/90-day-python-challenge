@@ -970,3 +970,70 @@ This project performs the first stage of Exploratory Data Analysis (EDA) on an i
 ## How to Run
 bash
 pip install pandas numpy matplotlib seaborn
+
+## Day 27 -eda_part2_cleaning- Feature Engineering & Data Transformation
+
+### Project: Treasury Risk Model Feature Optimization
+
+---
+
+## Description
+This project focuses on transforming raw financial transaction data into machine learning-ready features using feature engineering techniques.
+
+---
+
+## Dataset Features
+- Transaction_ID: Unique identifier
+- Amount: Transaction value
+- Category: Type of transaction (Travel, Tech, Legal, Rent)
+- Days_Since_Last_Audit: Time since last audit
+
+---
+
+## Feature Engineering Steps
+
+### 1. Log Transformation
+- Reduces skewness in Amount
+- Creates: Log_Amount
+
+---
+
+### 2. Binning (Discretization)
+- Converts Days_Since_Last_Audit into categories:
+  - Low
+  - Medium
+  - High
+- Creates: Audit_Urgency
+
+---
+
+### 3. One-Hot Encoding
+- Converts Category into binary columns
+- Example:
+  - Category_Travel
+  - Category_Tech
+  - Category_Legal
+  - Category_Rent
+
+---
+
+### 4. Derived Feature (Risk Score)
+A weighted score combining:
+
+- Log_Amount (importance: 70%)
+- Normalized audit time (importance: 30%)
+
+This helps identify high-risk transactions.
+
+---
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+
+---
+
+## How to Run
+bash
+pip install pandas numpy
