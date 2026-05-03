@@ -1037,3 +1037,73 @@ This helps identify high-risk transactions.
 ## How to Run
 bash
 pip install pandas numpy
+
+
+# Day 28 - eda part 3 - Comprehensive EDA Report
+
+## Project: Treasury Operations Analytics (Adidas Simulation)
+
+---
+
+## Objective
+To perform a full Exploratory Data Analysis (EDA) pipeline including:
+- Data cleaning
+- Visualization
+- Feature engineering
+- Insight generation
+
+---
+
+## Dataset Features
+- Request_ID
+- Employee_Level
+- Process_Time
+- Cost
+- Error_Found
+- Region
+
+---
+
+## Workflow
+
+### Phase 1: Data Integrity
+- Missing values handled using median imputation
+- Negative values removed
+
+---
+
+### Phase 2: Visualization
+- Violin plot: Employee Level vs Process Time
+- Heatmap: Cost vs Process Time correlation
+- Bar plot: Error rate by region
+
+---
+
+### Phase 3: Feature Engineering
+- Cost_Efficiency ratio created
+- Region encoded using one-hot encoding
+
+---
+
+### Phase 4: Insights
+Automated business insights:
+- Highest error region
+- Highest cost region
+- Fastest employee level
+
+---
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
+
+---
+
+## Output
+- Cleaned dataset
+- Visual dashboard
+- Feature-enhanced dataset
+- Final report summary
