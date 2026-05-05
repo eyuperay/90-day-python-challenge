@@ -1107,3 +1107,61 @@ Automated business insights:
 - Visual dashboard
 - Feature-enhanced dataset
 - Final report summary
+
+# Day 29
+## Project Overview
+This repository contains a structured 90-day learning journey focused on Python, Data Engineering, and AI-ready data pipelines for treasury and financial operations.
+
+---
+
+## Week 1–2: Core Engineering
+- Python fundamentals
+- OOP principles
+- Decorators & generators
+- File handling automation
+
+---
+
+## Week 3–4: Data Engineering & EDA
+- Pandas data manipulation
+- Data cleaning techniques
+- Feature engineering
+- Data visualization (Matplotlib, Seaborn, Plotly)
+- Exploratory Data Analysis (EDA)
+
+---
+
+## Week 5: EDA Pipeline (Structured Workflow)
+This project simulates a real-world data pipeline:
+
+- Data investigation
+- Data cleaning
+- Visualization
+- Feature engineering
+- Final reporting
+
+---
+
+## Business Impact
+This project simulates real treasury workflows:
+
+- Automated financial data cleaning
+- Detection of anomalies in transaction logs
+- Feature engineering for AI risk models
+- Visualization of operational inefficiencies
+- Reporting for decision-makers
+
+---
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+
+---
+
+## Goal
+To build a production-style data pipeline that mirrors real-world data engineering and analytics systems used in finance departments.
