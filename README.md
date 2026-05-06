@@ -1165,3 +1165,64 @@ This project simulates real treasury workflows:
 
 ## Goal
 To build a production-style data pipeline that mirrors real-world data engineering and analytics systems used in finance departments.
+
+# Day 30: Month 2 Blueprint - Treasury AI Roadmap
+
+## Objective
+This milestone marks the transition from **Exploratory Data Analysis (EDA)** to **Machine Learning and Predictive AI systems**.
+
+Instead of analyzing past data, the focus now shifts to:
+
+- Predicting financial risk
+- Automating decision-making
+- Building AI-driven treasury systems
+
+---
+
+## Month 2 Learning Roadmap
+
+### Week 5 - Machine Learning Foundations
+- Scikit-Learn basics
+- Regression (Linear Regression)
+- Classification (Logistic Regression)
+- Model training workflow: fit() → predict()
+
+---
+
+### Week 6 - Advanced Machine Learning
+- Random Forests
+- Gradient Boosting models (XGBoost concept)
+- Hyperparameter tuning
+- Feature importance analysis
+
+---
+
+### Week 7 - NLP & Large Language Models
+- Text preprocessing
+- TF-IDF & embeddings
+- Introduction to LLMs
+- Retrieval-Augmented Generation (RAG)
+
+---
+
+### Week 8 - Model Evaluation
+- Confusion Matrix
+- Precision / Recall / F1 Score
+- ROC-AUC
+- Business impact evaluation (cost vs risk)
+
+---
+
+## Strategic Vision
+
+This roadmap shifts the role from:
+
+> Data Analyst → AI Treasury Systems Engineer
+
+The goal is to move from descriptive analytics to predictive and intelligent decision systems.
+
+---
+
+## Output
+
+Running `30_month2_blueprint.py` prints a structured roadmap of Month 2 learning objectives.
