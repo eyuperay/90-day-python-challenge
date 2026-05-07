@@ -1226,3 +1226,71 @@ The goal is to move from descriptive analytics to predictive and intelligent dec
 ## Output
 
 Running `30_month2_blueprint.py` prints a structured roadmap of Month 2 learning objectives.
+
+# Day 31: Introduction to Machine Learning (Scikit-Learn)
+
+## Objective
+This project introduces the fundamentals of Machine Learning using Scikit-Learn.
+
+The goal is to understand how models learn patterns from data and make predictions.
+
+---
+
+## Scenario
+A "Predictive Budget Estimator" is built to estimate how many hours a project will require based on its complexity.
+
+---
+
+## Machine Learning Workflow
+
+1. Instantiate the model
+2. Train the model using `.fit()`
+3. Make predictions using `.predict()`
+
+---
+
+## Dataset
+
+Synthetic dataset generated using:
+
+- Feature: Project_Complexity (1–10)
+- Target: Required_Hours
+
+Formula used:
+
+Required_Hours = 5 × Complexity + Noise
+
+---
+
+## Key Concepts
+
+- Train/Test Split (to prevent overfitting)
+- Linear Regression
+- Model Coefficient (slope)
+- Model Intercept
+
+---
+
+## Output
+
+- Learned coefficient (should be close to 5)
+- Learned intercept
+- Predicted hours for a new project
+
+---
+
+## Business Impact
+
+This model simulates how treasury teams can:
+
+- Estimate project costs
+- Predict resource allocation
+- Automate budgeting decisions
+
+---
+
+## Learning Outcome
+
+Transition from:
+
+Rule-based logic → Data-driven prediction
