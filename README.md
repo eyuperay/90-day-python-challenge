@@ -1294,3 +1294,68 @@ This model simulates how treasury teams can:
 Transition from:
 
 Rule-based logic → Data-driven prediction
+
+# Day 32: Classification with Logistic Regression
+
+## Objective
+Build a classification model to predict whether a transaction will be approved.
+
+---
+
+## Scenario
+An automated "Treasury Approval Gate" system predicts:
+
+- Approved (1)
+- Denied (0)
+
+based on:
+- Transaction Amount
+- User Seniority
+
+---
+
+## Machine Learning Workflow
+
+1. Generate synthetic dataset
+2. Split into training and testing sets
+3. Scale features using StandardScaler
+4. Train Logistic Regression model
+5. Evaluate predictions
+
+---
+
+## Key Concepts
+
+- Classification vs Regression
+- Logistic Regression
+- Feature Scaling
+- Decision Threshold (0.5)
+- Evaluation Metrics:
+  - Precision
+  - Recall
+  - F1-score
+
+---
+
+## Output
+
+- Classification report showing model performance
+- Accuracy typically around 80–90%
+
+---
+
+## Business Impact
+
+This system simulates:
+
+- Automated approval pipelines
+- Risk-based decision making
+- Reduction of manual review workload
+
+---
+
+## Learning Outcome
+
+Transition from:
+
+Predicting values → Predicting decisions
