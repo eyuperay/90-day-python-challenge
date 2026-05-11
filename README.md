@@ -1359,3 +1359,100 @@ This system simulates:
 Transition from:
 
 Predicting values → Predicting decisions
+
+# Day 33: Confusion Matrix & Model Evaluation
+
+## Objective
+This project evaluates a classification model using a Confusion Matrix and translates prediction errors into real business costs.
+
+---
+
+## Scenario
+A Treasury Approval model is analyzed to determine:
+
+- How many fraud cases are correctly detected
+- How many legitimate transactions are incorrectly flagged
+- The financial impact of model errors
+
+---
+
+## Machine Learning Workflow
+
+1. Generate synthetic financial dataset
+2. Train Logistic Regression model
+3. Predict approval outcomes
+4. Evaluate results using Confusion Matrix
+5. Convert errors into business cost
+
+---
+
+## Confusion Matrix Explained
+
+| Term | Meaning |
+|------|--------|
+| True Positive (TP) | Fraud correctly detected |
+| True Negative (TN) | Legitimate transaction correctly accepted |
+| False Positive (FP) | Legitimate transaction flagged as fraud |
+| False Negative (FN) | Fraud missed by model |
+
+---
+
+## Business Cost Assumptions
+
+- False Positive (FP): $50 cost (manual review effort)
+- False Negative (FN): $500 cost (financial loss)
+
+---
+
+## Key Outputs
+
+- Confusion Matrix (numerical)
+- Visual Confusion Matrix plot
+- Total operational cost of model errors
+- Summary statement of financial risk
+
+---
+
+## Example Insight
+
+"Our model missed X fraud cases, resulting in a potential loss of $Y."
+
+---
+
+## Business Impact
+
+This system demonstrates how machine learning is used in financial systems to:
+
+- Reduce fraud risk
+- Optimize approval pipelines
+- Quantify cost of prediction errors
+- Support decision-making in Treasury operations
+
+---
+
+## Learning Outcome
+
+You learned that:
+
+- Accuracy alone is not enough
+- Different errors have different costs
+- ML models must be evaluated using business logic, not just statistics
+
+---
+
+## Tools Used
+
+- Python
+- Scikit-learn
+- Logistic Regression
+- Confusion Matrix
+- Matplotlib
+
+---
+
+## Next Step
+
+Move toward:
+- Decision Trees
+- Random Forests
+- Explainable AI models
