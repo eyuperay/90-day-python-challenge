@@ -1456,3 +1456,78 @@ Move toward:
 - Decision Trees
 - Random Forests
 - Explainable AI models
+
+# Day 34: Decision Trees - Vendor Risk Assessment
+
+## Objective
+Build an interpretable AI model to classify vendors as HIGH RISK or LOW RISK.
+
+---
+
+## Scenario
+We analyze vendor behavior using:
+
+- Years in Business
+- Late Payments
+- Contract Value
+
+The model predicts whether a vendor is risky for Treasury operations.
+
+---
+
+## Machine Learning Workflow
+
+1. Generate synthetic vendor dataset
+2. Train Decision Tree Classifier (max_depth=3)
+3. Visualize decision logic as a tree
+4. Extract feature importance
+5. Explain prediction path step-by-step
+
+---
+
+## Key Concepts
+
+### Decision Tree Structure
+- Root Node: First decision split
+- Branches: Conditions (True/False paths)
+- Leaves: Final prediction
+
+---
+
+## Why max_depth=3?
+
+To prevent overfitting and ensure generalization.
+
+---
+
+## Feature Importance
+
+The model automatically calculates which features influence decisions the most.
+
+---
+
+## Business Impact
+
+Decision Trees help Treasury teams:
+
+- Understand why a vendor is marked risky
+- Reduce manual audit workload
+- Improve transparency in AI decisions
+
+---
+
+## Learning Outcome
+
+You learned:
+
+- How AI makes rule-based decisions
+- How splits are determined (Gini/Entropy conceptually)
+- How to interpret AI decisions step-by-step
+
+---
+
+## Output
+
+- Decision Tree visualization
+- Feature importance ranking
+- Step-by-step decision explanation
