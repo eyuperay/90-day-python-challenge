@@ -1531,3 +1531,43 @@ You learned:
 - Decision Tree visualization
 - Feature importance ranking
 - Step-by-step decision explanation
+
+
+# Day 35 - Random Forest Fraud Detection
+
+## Objective
+Build a Random Forest model to detect fraudulent transactions and compare it with a Decision Tree.
+
+---
+
+## Models Used
+- Decision Tree (Baseline)
+- Random Forest (Ensemble Model)
+
+---
+
+## Key Concepts
+
+### Random Forest
+An ensemble of multiple decision trees that vote on the final prediction.
+
+### Why it works better
+- Reduces overfitting
+- Uses multiple random samples of data (bootstrapping)
+- Uses random feature selection
+
+---
+
+## Output
+
+- Model accuracy comparison
+- Feature importance ranking
+- Visualization of most important fraud indicators
+
+---
+
+## Business Value
+This model helps Treasury teams:
+- Detect fraud more accurately
+- Reduce false alarms
+- Improve decision consistency
