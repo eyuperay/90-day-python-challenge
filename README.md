@@ -1571,3 +1571,85 @@ This model helps Treasury teams:
 - Detect fraud more accurately
 - Reduce false alarms
 - Improve decision consistency
+
+# Day 36 - K-Means Clustering Analysis
+
+## Objective
+This project applies **unsupervised machine learning (K-Means clustering)** to segment vendors based on their invoice behavior.
+
+---
+
+## Business Scenario
+In Treasury operations, vendors behave differently:
+- Some invoice frequently with small amounts
+- Others invoice rarely but with high amounts
+
+We use clustering to automatically group them.
+
+---
+
+## Dataset Features
+
+- Invoice_Frequency → How often vendors send invoices
+- Average_Value → Average invoice amount
+
+---
+
+## Workflow
+
+### 1. Data Generation
+Synthetic vendor dataset is created for simulation purposes.
+
+### 2. Feature Scaling
+StandardScaler is used because K-Means relies on distance calculations.
+
+---
+
+### 3. Elbow Method
+We test K values from 1 to 10 and measure inertia.
+
+Purpose:
+- Helps find optimal number of clusters
+
+---
+
+### 4. K-Means Model
+We train the final model with:
+- K = 3 clusters
+
+---
+
+### 5. Visualization
+Two key visual outputs:
+
+#### Elbow Curve
+- Shows optimal cluster count
+
+#### Cluster Plot
+- Vendors grouped into clusters
+- Cluster centers marked with black X
+
+---
+
+## Key Learnings
+
+- How K-Means groups data without labels
+- Why scaling is essential for distance-based models
+- How to interpret clusters for business segmentation
+
+---
+
+## Business Value
+
+This model helps Treasury teams:
+- Identify vendor behavior patterns
+- Optimize payment strategies
+- Detect unusual vendor activity
+
+---
+
+## Output
+
+- Elbow method graph
+- Cluster visualization
+- Vendor segmentation results
