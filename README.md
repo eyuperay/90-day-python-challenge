@@ -1653,3 +1653,47 @@ This model helps Treasury teams:
 - Elbow method graph
 - Cluster visualization
 - Vendor segmentation results
+
+# Day 37 - Anomaly Detection with Isolation Forest
+
+##  Project Overview
+This project demonstrates how to detect unusual (suspicious) financial transactions using an **Isolation Forest** machine learning model.
+
+The goal is to automatically identify abnormal expense patterns that may indicate fraud, errors, or policy violations in Treasury operations.
+
+---
+
+##  Key Concept
+
+Isolation Forest is an **unsupervised anomaly detection algorithm** that works on the idea that:
+
+> Anomalies are rare and easier to isolate than normal data points.
+
+- Normal transactions require many splits to isolate
+- Anomalies require fewer splits
+
+---
+
+##  Dataset Description
+
+The dataset is synthetically generated:
+
+### Normal Transactions:
+- Amount: 20 – 150
+- Days Since Last Transaction: 1 – 5
+- Count: 500 records
+
+### Anomalous Transactions:
+- Amount: 1500 – 3000
+- Days Since Last Transaction: 20 – 30
+- Count: 10 records
+
+---
+
+##  Model Configuration
+
+python
+IsolationForest(
+    contamination=0.02,
+    random_state=42
+)
