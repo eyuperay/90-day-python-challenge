@@ -1697,3 +1697,77 @@ IsolationForest(
     contamination=0.02,
     random_state=42
 )
+
+
+# Day 38 - PCA Dimensionality Reduction
+
+##  Objective
+Reduce high-dimensional financial data into 2 principal components for visualization and pattern discovery.
+
+---
+
+##  Concept
+
+Principal Component Analysis (PCA) transforms many correlated variables into fewer uncorrelated components.
+
+- PC1 → captures most variance
+- PC2 → captures remaining variance
+
+---
+
+##  Workflow
+
+### 1. Data Generation
+- 10 financial ratio features
+- 200 samples
+
+### 2. Standardization
+- All features scaled using StandardScaler
+- Prevents dominance of large-value features
+
+### 3. PCA Transformation
+- Reduced 10 features → 2 components
+- Fit + transform applied
+
+---
+
+##  Visualization
+
+- Scatter plot of PC1 vs PC2
+- Each point represents a data sample in reduced space
+
+---
+
+##  Explained Variance
+
+The model prints:
+
+- Individual variance per component
+- Total variance retained
+
+Example:
+
+Total Variance Captured: 93.45%
+
+
+---
+
+##  Business Value
+
+PCA is used in Treasury & Finance for:
+
+- Risk grouping of departments
+- Fraud pattern simplification
+- Visualization of complex financial ratios
+- Noise reduction in financial signals
+
+---
+
+##  Learning Outcome
+
+You learned how to:
+
+- Reduce dimensionality safely
+- Preserve information using variance
+- Visualize high-dimensional financial data
+- Apply PCA in real-world business analytics
