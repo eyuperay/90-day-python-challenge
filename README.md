@@ -1771,3 +1771,79 @@ You learned how to:
 - Preserve information using variance
 - Visualize high-dimensional financial data
 - Apply PCA in real-world business analytics
+
+# Day 39 - Model Selection & Hyperparameter Tuning
+
+## Objective
+Improve model performance by automatically selecting the best hyperparameters using GridSearchCV.
+
+---
+
+## Concept
+
+Hyperparameters are configuration settings defined before training.
+
+Examples:
+- Number of trees in a Random Forest
+- Maximum tree depth
+- Minimum samples required for splitting
+
+---
+
+## Key Techniques
+
+### Cross-Validation (CV)
+- Data is split into multiple folds
+- Model is trained and validated multiple times
+- Reduces risk of overfitting
+
+---
+
+### Grid Search
+- Tests all combinations of hyperparameters
+- Finds the best-performing configuration
+
+---
+
+## Workflow
+
+### 1. Dataset
+- Synthetic fraud detection dataset
+- Features: Amount, Seniority, Frequency, Risk Score
+- Target: Fraud (0/1)
+
+---
+
+### 2. Model Tuning
+- Algorithm: Random Forest
+- Tool: GridSearchCV
+- CV: 5-fold cross-validation
+
+---
+
+### 3. Output
+- Best hyperparameters
+- Best cross-validation score
+- Final test accuracy
+
+---
+
+## Business Value
+
+Hyperparameter tuning is used in:
+
+- Fraud detection systems
+- Credit risk modeling
+- Financial forecasting
+- AI optimization pipelines
+
+---
+
+## Learning Outcome
+
+You learned how to:
+
+- Automatically optimize ML models
+- Avoid manual trial-and-error tuning
+- Use cross-validation for reliable evaluation
+- Select production-ready models
