@@ -1847,3 +1847,71 @@ You learned how to:
 - Avoid manual trial-and-error tuning
 - Use cross-validation for reliable evaluation
 - Select production-ready models
+
+
+# Day 40 - E-Commerce Inventory Management API
+
+## Description
+
+A production-ready RESTful API for managing e-commerce inventory, products, orders, and user authentication. Built with FastAPI, PostgreSQL, Redis, and Docker. This project demonstrates real-world backend development practices including JWT authentication, role-based access control, caching, and containerization.
+
+## Features
+
+- **User Authentication** - Register, login, and JWT-based authorization
+- **Product Management** - Full CRUD operations with filtering and search
+- **Category Management** - Organize products with categories
+- **Order Management** - Create and track customer orders
+- **Inventory Management** - Track stock levels and reorder points
+- **Role-Based Access** - Admin and Employee roles with different permissions
+- **Redis Caching** - Performance optimization for frequently accessed data
+- **Docker Support** - Containerized application for easy deployment
+- **API Documentation** - Auto-generated Swagger UI and ReDoc
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **FastAPI** | Web framework |
+| **PostgreSQL** | Primary database |
+| **SQLAlchemy** | ORM |
+| **Redis** | Caching |
+| **Docker** | Containerization |
+| **JWT** | Authentication |
+| **Pytest** | Testing |
+
+## Requirements
+
+### Prerequisites
+
+- **Python 3.11+**
+- **Docker Desktop** (Windows/Mac) or **Docker Engine** (Linux)
+- **Git** (optional)
+
+### Python Packages
+
+All dependencies are listed in `requirements.txt`:
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Python-JOSE
+- Passlib
+- Redis
+- Pytest
+
+## Installation
+
+### Option 1: Docker (Recommended)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/day40-ecommerce-inventory-api.git
+cd day40-ecommerce-inventory-api
+
+# 2. Start all services with Docker Compose
+docker-compose -f docker/docker-compose.yml up -d
+
+# 3. Seed the database with sample data
+docker exec -it day40_app python scripts/seed_data.py
+
+# 4. Access the API
+curl http://localhost:8000
