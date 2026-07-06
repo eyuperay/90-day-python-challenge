@@ -1915,3 +1915,128 @@ docker exec -it day40_app python scripts/seed_data.py
 
 # 4. Access the API
 curl http://localhost:8000
+
+# Day 41 - CRM API
+
+## Description
+
+A production-ready CRM (Customer Relationship Management) REST API for managing customers, leads, interactions, deals, and tasks. Built with FastAPI, PostgreSQL, Redis, and Docker.
+
+## Features
+
+- **User Management** - Multi-role authentication (Admin, Sales, Support, Viewer)
+- **Customer Management** - Full CRUD with status tracking (Active, VIP, Potential)
+- **Lead Management** - Track leads through sales pipeline with scoring
+- **Interaction Tracking** - Log calls, emails, meetings, and notes
+- **Deal Management** - Track sales deals through stages
+- **Task Management** - Assign and track tasks with priorities
+- **Redis Caching** - Performance optimization
+- **Docker Support** - Easy deployment
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **FastAPI** | Web framework |
+| **PostgreSQL** | Primary database |
+| **SQLAlchemy** | ORM |
+| **Redis** | Caching |
+| **Docker** | Containerization |
+| **JWT** | Authentication |
+| **Pytest** | Testing |
+
+## Quick Start
+
+```bash
+# Start services
+docker-compose -f docker/docker-compose.yml up -d
+
+# Seed database
+docker exec -it day41_app python scripts/seed_data.py
+
+# Access API
+curl http://localhost:8000
+
+# Swagger UI
+http://localhost:8000/docs
+
+# Day 41 - CRM API
+
+## Description
+
+A production-ready CRM (Customer Relationship Management) REST API for managing customers, leads, interactions, deals, and tasks. Built with FastAPI, PostgreSQL, Redis, and Docker. This project demonstrates real-world backend development practices including JWT authentication, role-based access control, and containerization.
+
+## Features
+
+- **User Authentication** - Register, login, and JWT-based authorization with multiple roles
+- **Customer Management** - Full CRUD operations with status tracking (Active, VIP, Potential)
+- **Lead Management** - Track leads through sales pipeline with scoring and source tracking
+- **Interaction Tracking** - Log calls, emails, meetings, and notes for customers and leads
+- **Deal Management** - Track sales opportunities through pipeline stages
+- **Task Management** - Assign and track tasks with priorities and deadlines
+- **Role-Based Access** - Admin, Sales, Support, and Viewer roles with different permissions
+- **Redis Caching** - Performance optimization for frequently accessed data
+- **Docker Support** - Containerized application for easy deployment
+- **API Documentation** - Auto-generated Swagger UI and ReDoc
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **FastAPI** | Web framework |
+| **PostgreSQL** | Primary database |
+| **SQLAlchemy** | ORM |
+| **Redis** | Caching |
+| **Docker** | Containerization |
+| **JWT** | Authentication |
+| **Pytest** | Testing |
+
+## Requirements
+
+### Prerequisites
+
+- **Python 3.11+**
+- **Docker Desktop** (Windows/Mac) or **Docker Engine** (Linux)
+- **Git** (optional)
+
+### Python Packages
+
+All dependencies are listed in `requirements.txt`:
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Python-JOSE
+- Passlib
+- Redis
+- Pytest
+
+## Installation
+
+### Option 1: Docker (Recommended)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/day41-crm-api.git
+cd day41-crm-api
+
+# 2. Start all services with Docker Compose
+docker-compose -f docker/docker-compose.yml up -d
+
+# 3. Create database tables
+docker exec -it day41_app python -c "
+from app.core.database import engine
+from app.models import user, customer, lead, interaction, deal, task
+user.Base.metadata.create_all(bind=engine)
+customer.Base.metadata.create_all(bind=engine)
+lead.Base.metadata.create_all(bind=engine)
+interaction.Base.metadata.create_all(bind=engine)
+deal.Base.metadata.create_all(bind=engine)
+task.Base.metadata.create_all(bind=engine)
+print('✅ Tables created!')
+"
+
+# 4. Seed the database with sample data
+docker exec -it day41_app python scripts/seed_data.py
+
+# 5. Access the API
+curl http://localhost:8000
