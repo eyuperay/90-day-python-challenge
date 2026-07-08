@@ -1,0 +1,15 @@
+﻿fastapi==0.139.0
+uvicorn[standard]==0.35.0
+sqlalchemy>=2.0
+asyncpg
+aiosqlite
+pydantic==2.13.4
+pydantic-settings==2.14.2
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+redis
+httpx
+pytest
+pytest-asyncio
+email-validator
