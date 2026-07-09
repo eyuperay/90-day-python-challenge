@@ -2003,3 +2003,146 @@ pip install -r requirements.txt
 
 # 4. Run the server
 uvicorn app.main:app --reload
+
+# Day 43 - Booking System API
+
+## Objective
+
+Build a RESTful Booking System API using FastAPI with JWT authentication, allowing users to manage service providers, bookings, availability schedules, and reviews.
+
+---
+
+## Concept
+
+A Booking System API enables customers to schedule appointments with service providers while preventing scheduling conflicts through availability management.
+
+The project follows a layered FastAPI architecture using routers, services, models, and schemas.
+
+---
+
+## Key Features
+
+### Authentication
+
+* User Registration
+* User Login
+* JWT Access Token
+* Protected Endpoints
+
+---
+
+### Booking Management
+
+* Create bookings
+* Update bookings
+* Cancel bookings
+* View booking history
+
+---
+
+### Provider Management
+
+* Create service providers
+* Manage provider profiles
+* Define available working hours
+* Block unavailable dates
+
+---
+
+### Review System
+
+* Leave customer reviews
+* Rate service providers
+* Retrieve provider reviews
+
+---
+
+## Workflow
+
+### 1. Authentication
+
+* Register a new user
+* Login to receive a JWT access token
+* Authorize protected endpoints
+
+---
+
+### 2. Provider Setup
+
+* Create provider profiles
+* Configure availability schedule
+* Define unavailable dates
+
+---
+
+### 3. Booking Process
+
+* Search provider availability
+* Create a booking
+* Update or cancel reservations
+
+---
+
+### 4. Reviews
+
+* Submit customer reviews
+* Store ratings
+* Display provider feedback
+
+---
+
+## Tech Stack
+
+* Python
+* FastAPI
+* SQLAlchemy
+* SQLite
+* Pydantic
+* JWT Authentication
+* Uvicorn
+* Docker
+* Pytest
+
+---
+
+## API Documentation
+
+Run the server:
+
+```bash
+python -m uvicorn app.main:app --reload --port 8000
+```
+
+Open Swagger UI:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## Business Value
+
+Booking APIs are widely used in:
+
+* Healthcare appointment systems
+* Salon and beauty services
+* Hotel reservation platforms
+* Restaurant booking systems
+* Fitness and personal training
+* Consulting services
+* Equipment rental platforms
+
+---
+
+## Learning Outcome
+
+You learned how to:
+
+* Build a RESTful API with FastAPI
+* Structure a scalable backend project
+* Implement JWT authentication
+* Design relational database models
+* Manage bookings and provider availability
+* Protect endpoints using access tokens
+* Document APIs with Swagger
