@@ -2146,3 +2146,63 @@ You learned how to:
 * Manage bookings and provider availability
 * Protect endpoints using access tokens
 * Document APIs with Swagger
+
+
+# Day 44 - Web Scraping: Real Estate Prices
+
+## About This Project
+This project collects apartment listings from a specified city and neighborhood, allowing you to analyze real estate prices in your area.
+
+## Features
+- Fetches listings from specified city/neighborhood
+- Cleans and extracts price, square meters, room count data
+- Saves data in CSV format
+- Provides basic statistics (average price, price per sqm, etc.)
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the program
+python main.py
+
+### 3. Enter requested information
+- City name (e.g., Istanbul)
+- Neighborhood name (e.g., Kadikoy)
+- Number of pages to scrape (default: 3)
+
+## Important Note
+This project is demonstration only. For real website integration:
+
+1. Update base_url in realestate_scraper.py
+2. Modify URL structure in the scrape() method
+3. Update HTML selectors (CSS classes) in the scrape() method
+
+## Output
+Scraped data is saved in the data/ folder with format:
+realestate_Istanbul_Kadikoy_20260113_153045.csv
+
+## Example Output
+SUMMARY STATISTICS
+----------------------------------------
+Total Listings: 45
+Average Price: 3,250,000 TRY
+Lowest Price: 1,150,000 TRY
+Highest Price: 8,900,000 TRY
+Average SQM: 95.0 m²
+Price per SQM: 34,211 TRY/m²
+
+## Libraries Used
+- requests - HTTP requests
+- beautifulsoup4 - HTML parsing
+- pandas - Data processing and CSV export
+- fake-useragent - Random User-Agent generation
+
+## Learning Objectives
+- Web scraping fundamentals
+- BeautifulSoup HTML parsing
+- Data cleaning techniques
+- CSV data storage
+- Error handling and polite scraping strategies
+v
