@@ -3088,7 +3088,46 @@ This project demonstrates generating reports in CSV and Excel formats with data 
 ## Report Types
 
 ### Summary Report
-```python
+
 summary = generator.create_summary_report(data, 'region', 'sum')
 
- 
+# Day 61 - Scheduled Tasks
+
+## About This Project
+This project demonstrates task scheduling in Python using threading and time-based execution.
+
+## Features
+- Schedule tasks at regular intervals
+- Add/remove tasks dynamically
+- Task status tracking
+- Error handling
+- Task statistics
+- Manual task execution
+- Cancel tasks
+
+## Task Types
+- Periodic: Runs every N seconds
+- One-time: Runs once after delay
+- On-demand: Run manually
+
+## Implementation
+- threading for background execution
+- time.sleep() for interval management
+- Lock for thread safety
+- Dataclasses for task management
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+### 2. Check logs
+ls logs/
+
+## Learning Objectives
+- Task scheduling concepts
+- Background execution
+- Thread safety
+- Error handling in tasks
+- Task management
+- Real-world scheduling scenarios
