@@ -2830,3 +2830,95 @@ class Color(Enum):
     RED = 1
     GREEN = 2
     BLUE = 3
+
+
+
+# Day 56 - Context Manager
+
+## About This Project
+This project demonstrates custom context managers in Python using both class-based and decorator-based approaches.
+
+## Features
+- Timer context manager
+- Database connection manager
+- File handler with error handling
+- Logging context
+- Error suppression
+- Transaction management
+- Directory changer
+- Decorator-based managers
+
+## Context Manager Types
+
+### Class-Based (__enter__/__exit__)
+
+```python
+class Timer:
+    def __enter__(self):
+        self.start = time.time()
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        duration = time.time() - self.start
+        print(f"Duration: {duration:.4f}s")
+```
+
+### Decorator-Based (@contextmanager)
+
+```python
+@contextmanager
+def timed_operation(name):
+    start = time.time()
+    try:
+        yield
+    finally:
+        duration = time.time() - start
+        print(f"{name}: {duration:.4f}s")
+```
+
+## Examples
+
+### Timer
+
+```python
+with Timer("Process"):
+    time.sleep(1)
+# Output: Process completed in 1.0000 seconds
+```
+
+### Database Connection
+
+```python
+with DatabaseConnection("db.sqlite") as cursor:
+    cursor.execute("SELECT * FROM users")
+```
+
+### File Handler
+
+```python
+with FileHandler("file.txt", 'w') as f:
+    f.write("Hello World")
+```
+
+### Transaction
+
+```python
+with Transaction(connection):
+    # All operations succeed -> commit
+    # Any error -> rollback
+```
+
+## Usage
+
+```bash
+python main.py
+```
+
+## Learning Objectives
+- Understanding context managers
+- Creating custom context managers
+- Using __enter__ and __exit__
+- Using @contextmanager decorator
+- Resource management
+- Error handling with contexts
+- Real-world applications
