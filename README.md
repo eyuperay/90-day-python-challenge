@@ -2825,7 +2825,7 @@ This project demonstrates Python's `enum` module for creating type-safe constant
 ## Enum Types
 
 ### Basic Enum
-```python
+
 class Color(Enum):
     RED = 1
     GREEN = 2
