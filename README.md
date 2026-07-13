@@ -2503,3 +2503,61 @@ python main.py
 - Log file analysis
 - Data extraction with regex
 - Report generation
+
+# Day 50 - Unit Test Writing
+
+## About This Project
+This project demonstrates unit testing in Python using the built-in `unittest` framework. It tests a calculator module with various mathematical functions.
+
+## Features
+- Calculator class with 15+ mathematical functions
+- Comprehensive unit tests
+- Test coverage for edge cases
+- Automatic test report generation
+- No external dependencies
+
+## Functions Tested
+- add, subtract, multiply, divide
+- power, square_root, factorial
+- is_even, is_prime
+- average, fibonacci
+- gcd, lcm
+- greet, validate_email
+- celsius_to_fahrenheit, fahrenheit_to_celsius
+
+## Test Categories
+- Positive test cases
+- Negative test cases (error handling)
+- Edge cases (zero, negative, empty)
+- Type checking
+- Floating point precision
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+### 2. Or run tests directly
+python test_calculator.py
+
+### 3. Check test report
+cat output/test_report.txt
+
+## Test Report
+- Tests Run: Total number of tests
+- Failures: Failed assertions
+- Errors: Unexpected exceptions
+- Skipped: Skipped tests
+
+## Unit Test Frameworks in Python
+- **unittest** - Built-in framework (used here)
+- **pytest** - Popular third-party framework
+- **nose2** - Test discovery and running
+
+## Learning Objectives
+- Understanding unit testing
+- Writing test cases
+- Using assertions
+- Testing edge cases
+- Generating test reports
+- Test-driven development concepts
