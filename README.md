@@ -2680,3 +2680,59 @@ python main.py
 - Working with infinite iterators
 - Chaining and filtering data
 - Real-world applications of itertools
+
+# Day 53 - Functools Caching
+
+## About This Project
+This project demonstrates function result caching using Python's `functools.lru_cache` decorator.
+
+## Features
+- Caching with @lru_cache
+- Performance comparison (cached vs non-cached)
+- Cache statistics (hits, misses, size)
+- Cache clearing
+- Maxsize configuration
+- Practical examples
+
+## Functions Demonstrated
+
+### With Caching
+- `fibonacci_cached()` - Recursive Fibonacci with caching
+- `expensive_computation_cached()` - Simulated heavy computation
+- `is_prime_cached()` - Prime number check with caching
+- `factorial_cached()` - Factorial with caching
+- `combination_cached()` - Combination with caching
+
+### Without Caching
+- `fibonacci_slow()` - Recursive Fibonacci (very slow)
+- `expensive_computation_slow()` - Heavy computation (no cache)
+- `is_prime_slow()` - Prime check (no cache)
+
+## Performance Results
+| Function | Without Cache | With Cache | Speedup |
+|----------|---------------|------------|---------|
+| Fibonacci(30) | ~0.4s | ~0.0001s | 4000x |
+| Expensive Computation | 20 calls | 20 calls (cached) | ~5x |
+| Prime Check | 50 calls | 50 calls (cached) | ~2x |
+
+## LRU Cache Explained
+- **LRU**: Least Recently Used
+- Evicts least recently used items when maxsize is reached
+- maxsize=128 means store up to 128 results
+- maxsize=None means unlimited (use carefully)
+
+## Cache Methods
+- `cache_info()` - Returns hits, misses, maxsize, currsize
+- `cache_clear()` - Clears the cache
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+## Learning Objectives
+- Using lru_cache decorator
+- Performance optimization
+- Cache management
+- Understanding LRU algorithm
+- Practical caching scenarios
