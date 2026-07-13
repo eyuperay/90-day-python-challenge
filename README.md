@@ -2621,3 +2621,62 @@ cat output/profile_report.txt
 - Comparing algorithm efficiency
 - Optimizing Python code
 - Using pstats for report generation
+
+# Day 52 - Itertools Combinations
+
+## About This Project
+This project demonstrates Python's `itertools` module for generating combinations, permutations, and products of data.
+
+## Features
+- Combinations (order doesn't matter, no repetition)
+- Combinations with replacement (repetition allowed)
+- Permutations (order matters)
+- Cartesian product (multiple lists)
+- Infinite iterators (count, cycle, repeat)
+- Chaining iterables
+- Filtering with compress, dropwhile, takewhile
+- Grouping with groupby
+- Real-world scenarios
+
+## Functions Demonstrated
+
+### Combinatorics
+- `combinations()` - All combinations of length r
+- `combinations_with_replacement()` - Combinations with repetition
+- `permutations()` - All permutations
+- `product()` - Cartesian product
+
+### Infinite Iterators
+- `count(start, step)` - Infinite counter
+- `cycle(iterable)` - Infinite cycle
+- `repeat(item, times)` - Repeat item
+
+### Chaining
+- `chain(*iterables)` - Chain multiple iterables
+- `chain.from_iterable()` - Chain from list of iterables
+
+### Filtering
+- `compress(data, selectors)` - Filter with booleans
+- `dropwhile(predicate, iterable)` - Drop while true
+- `takewhile(predicate, iterable)` - Take while true
+
+### Grouping
+- `groupby(iterable, key)` - Group by key function
+
+## Real-World Scenarios
+1. **Product Catalog**: Generate all product variations (size, color, material)
+2. **Menu Combinations**: Calculate total meal combinations
+3. **Lottery Numbers**: Calculate possible number combinations
+4. **Team Formation**: Generate all possible teams
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+## Learning Objectives
+- Understanding itertools module
+- Generating combinations and permutations
+- Working with infinite iterators
+- Chaining and filtering data
+- Real-world applications of itertools
