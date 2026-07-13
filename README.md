@@ -3215,3 +3215,94 @@ python cli_tool.py hello -h
 - Building CLI tools
 - User interaction
 - Utility functions
+
+# Day 62 - CLI Tool
+
+## About This Project
+This project demonstrates building a command-line interface (CLI) tool using Python's `argparse` module. It provides multiple subcommands for various utilities like math operations, file handling, data generation, weather forecasts, system information, and unit conversions.
+
+## Features
+- Multiple subcommands with their own arguments
+- Built-in help system for each command
+- Verbose output mode (-v)
+- Version information (--version)
+- JSON output support for file listing and system info
+- No external dependencies - uses only built-in modules
+
+
+## Commands
+
+### Global Options
+
+| Option | Description |
+|--------|-------------|
+| `-h, --help` | Show help message |
+| `-v, --verbose` | Enable verbose output |
+| `--version` | Show version information |
+
+---
+
+### 1. Hello Command
+Say hello to someone.
+
+bash
+
+python main.py hello --name John
+python main.py hello --name John -u
+python main.py -v hello --name John
+
+# Day 63 - System Information
+
+## About This Project
+This project collects and displays system information using Python's built-in modules.
+
+## Features
+- Operating system information
+- Hardware information (CPU, memory, disk)
+- Network information (hostname, IP addresses)
+- Environment information
+- JSON output
+- Text report generation
+- Summary display
+
+## Information Collected
+
+### Operating System
+- System name (Windows, Linux, macOS)
+- Release version
+- Platform details
+- Python version
+- Processor architecture
+
+### Hardware
+- CPU cores (physical and logical)
+- CPU usage (if psutil installed)
+- Memory (total, available, usage)
+- Disk (total, used, free, usage)
+
+### Network
+- Hostname
+- IP address
+- All IP addresses
+
+### Environment
+- Current directory
+- Home directory
+- Username
+- Computer name
+
+## Usage
+
+### 1. Install dependencies (optional)
+pip install psutil
+
+### 2. Run the program
+python main.py
+
+### 3. Check outputs
+- output/system_report.txt - Text report
+- output/system_info.json - JSON data
+
+## Output Formats
+
+### Text Report (system_report.txt)
