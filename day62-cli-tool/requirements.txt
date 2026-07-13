@@ -1,0 +1,3 @@
+﻿# Day 62 - CLI Tool
+# Uses only built-in modules: argparse, os, json, datetime, random
+# No external dependencies needed
