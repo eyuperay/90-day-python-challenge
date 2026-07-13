@@ -1,0 +1,50 @@
+2026-07-13 10:15:23 INFO User login successful: username=ahmet@email.com, ip=192.168.1.100
+2026-07-13 10:15:45 INFO User login successful: username=mehmet@email.com, ip=192.168.1.101
+2026-07-13 10:16:12 ERROR Database connection failed: Timeout after 30 seconds
+2026-07-13 10:16:34 WARNING High memory usage detected: 85%
+2026-07-13 10:17:01 INFO User login successful: username=ayse@email.com, ip=192.168.1.102
+2026-07-13 10:17:23 ERROR File not found: /var/www/html/index.html
+2026-07-13 10:17:45 INFO User logout: username=ahmet@email.com, ip=192.168.1.100
+2026-07-13 10:18:12 WARNING Slow response time: 2.5 seconds
+2026-07-13 10:18:34 INFO User login successful: username=fatma@email.com, ip=192.168.1.103
+2026-07-13 10:19:01 ERROR Database connection failed: Connection refused
+2026-07-13 10:19:23 INFO User login successful: username=ali@email.com, ip=192.168.1.104
+2026-07-13 10:19:45 INFO User login successful: username=zeynep@email.com, ip=192.168.1.105
+2026-07-13 10:20:12 WARNING Disk space warning: 15% remaining
+2026-07-13 10:20:34 ERROR File not found: /var/www/html/images/logo.png
+2026-07-13 10:21:01 INFO User logout: username=mehmet@email.com, ip=192.168.1.101
+2026-07-13 10:21:23 INFO User login successful: username=emre@email.com, ip=192.168.1.106
+2026-07-13 10:21:45 ERROR Database connection failed: Invalid credentials
+2026-07-13 10:22:12 WARNING High memory usage detected: 92%
+2026-07-13 10:22:34 INFO User login successful: username=elif@email.com, ip=192.168.1.107
+2026-07-13 10:23:01 INFO User logout: username=ayse@email.com, ip=192.168.1.102
+2026-07-13 10:23:23 ERROR File not found: /var/www/html/js/script.js
+2026-07-13 10:23:45 INFO User login successful: username=ahmet@email.com, ip=192.168.1.108
+2026-07-13 10:24:12 WARNING Slow response time: 3.1 seconds
+2026-07-13 10:24:34 INFO User login successful: username=mehmet@email.com, ip=192.168.1.109
+2026-07-13 10:25:01 ERROR Database connection failed: Timeout after 30 seconds
+2026-07-13 10:25:23 INFO User logout: username=fatma@email.com, ip=192.168.1.103
+2026-07-13 10:25:45 WARNING High memory usage detected: 88%
+2026-07-13 10:26:12 INFO User login successful: username=ayse@email.com, ip=192.168.1.110
+2026-07-13 10:26:34 ERROR File not found: /var/www/html/css/style.css
+2026-07-13 10:27:01 INFO User logout: username=ali@email.com, ip=192.168.1.104
+2026-07-13 10:27:23 INFO User login successful: username=fatma@email.com, ip=192.168.1.111
+2026-07-13 10:27:45 WARNING Slow response time: 4.2 seconds
+2026-07-13 10:28:12 ERROR Database connection failed: Connection refused
+2026-07-13 10:28:34 INFO User login successful: username=zeynep@email.com, ip=192.168.1.112
+2026-07-13 10:29:01 INFO User logout: username=emre@email.com, ip=192.168.1.106
+2026-07-13 10:29:23 WARNING Disk space warning: 10% remaining
+2026-07-13 10:29:45 ERROR File not found: /var/www/html/js/app.js
+2026-07-13 10:30:12 INFO User login successful: username=ali@email.com, ip=192.168.1.113
+2026-07-13 10:30:34 INFO User logout: username=elif@email.com, ip=192.168.1.107
+2026-07-13 10:31:01 WARNING High memory usage detected: 95%
+2026-07-13 10:31:23 INFO User login successful: username=emre@email.com, ip=192.168.1.114
+2026-07-13 10:31:45 ERROR Database connection failed: Timeout after 30 seconds
+2026-07-13 10:32:12 INFO User logout: username=mehmet@email.com, ip=192.168.1.109
+2026-07-13 10:32:34 INFO User login successful: username=elif@email.com, ip=192.168.1.115
+2026-07-13 10:33:01 WARNING Slow response time: 5.0 seconds
+2026-07-13 10:33:23 ERROR File not found: /var/www/html/images/banner.jpg
+2026-07-13 10:33:45 INFO User logout: username=ahmet@email.com, ip=192.168.1.108
+2026-07-13 10:34:12 INFO User login successful: username=mehmet@email.com, ip=192.168.1.116
+2026-07-13 10:34:34 WARNING High memory usage detected: 90%
+2026-07-13 10:35:01 ERROR Database connection failed: Invalid credentials

@@ -1,0 +1,3 @@
+# Day 49 - Regex Log Analyzer
+# Uses only built-in modules: re, datetime, collections, os
+# No external dependencies needed

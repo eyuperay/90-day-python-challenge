@@ -1,0 +1,75 @@
+============================================================
+LOG ANALYSIS REPORT
+============================================================
+Report Generated: 2026-07-13 14:09:44
+============================================================
+
+Total Log Entries: 50
+
+----------------------------------------
+LOG LEVEL DISTRIBUTION
+----------------------------------------
+  ERROR: 13 (26.0%)
+  INFO: 26 (52.0%)
+  WARNING: 11 (22.0%)
+
+----------------------------------------
+TOP 5 ACTIVE USERS
+----------------------------------------
+  mehmet@email.com: 5 events
+  ahmet@email.com: 4 events
+  ayse@email.com: 3 events
+  fatma@email.com: 3 events
+  ali@email.com: 3 events
+
+----------------------------------------
+TOP 5 IP ADDRESSES
+----------------------------------------
+  192.168.1.100: 2 events
+  192.168.1.101: 2 events
+  192.168.1.102: 2 events
+  192.168.1.103: 2 events
+  192.168.1.104: 2 events
+
+----------------------------------------
+TOP 5 ERROR TYPES
+----------------------------------------
+  Database connection failed: 7 occurrences
+  File not found: 6 occurrences
+
+----------------------------------------
+RESPONSE TIME STATISTICS
+----------------------------------------
+  Average: 3.7 seconds
+  Maximum: 5.0 seconds
+  Minimum: 2.5 seconds
+
+----------------------------------------
+MEMORY/CPU USAGE
+----------------------------------------
+  Average Usage: 67.9%
+  Peak Usage: 95%
+
+----------------------------------------
+UNIQUE EMAILS IN LOGS
+----------------------------------------
+  ahmet@email.com
+  ali@email.com
+  ayse@email.com
+  elif@email.com
+  emre@email.com
+  fatma@email.com
+  mehmet@email.com
+  zeynep@email.com
+
+----------------------------------------
+ERROR SUMMARY
+----------------------------------------
+  2026-07-13 10:16:12: Database connection failed: Timeout after 30 seconds
+  2026-07-13 10:17:23: File not found: /var/www/html/index.html
+  2026-07-13 10:19:01: Database connection failed: Connection refused
+  2026-07-13 10:20:34: File not found: /var/www/html/images/logo.png
+  2026-07-13 10:21:45: Database connection failed: Invalid credentials
+  ... and 8 more errors
+
+============================================================
