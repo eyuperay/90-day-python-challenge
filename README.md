@@ -3042,9 +3042,33 @@ Formats log messages:
 ## Examples
 
 ### Basic Logger
-```python
+
 logger = setup_logger('app', 'INFO')
 logger.info("Application started")
 logger.error("Error occurred")
 
-    
+# Day 59 - JSON Transformation
+
+## About This Project
+This project demonstrates JSON operations including reading, writing, transforming, and validating JSON data.
+
+## Features
+- Read/write JSON files
+- Convert JSON to/from string
+- Flatten nested JSON
+- Extract specific fields
+- Filter data
+- Transform keys
+- Add timestamps
+- Merge JSON objects
+- Schema validation
+- Nested operations
+
+## JSON Operations
+
+### Read Operations
+```python
+data = handler.read_json("file.json")
+data = handler.read_json_string('{"key": "value"}')
+
+   
