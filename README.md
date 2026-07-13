@@ -2451,3 +2451,55 @@ Images are downloaded from picsum.photos - free placeholder images:
 
 ## Performance Benefits
 Multithreading significantly speeds up I/O-bound operations like downloading images, as the program can download multiple images simultaneously while waiting for network responses.
+
+# Day 49 - Regex Log Analyzer
+
+## About This Project
+This project demonstrates log file analysis using regular expressions. It extracts patterns from server logs and provides statistical insights.
+
+## Features
+- Parse log files with regex patterns
+- Extract timestamps, log levels, usernames, IPs, emails
+- Count and analyze log entries
+- Search logs for keywords
+- Generate detailed reports
+- Export reports to text files
+
+## Log Patterns Extracted
+- Timestamp: `YYYY-MM-DD HH:MM:SS`
+- Log Levels: INFO, WARNING, ERROR, DEBUG
+- Username: `username=value`
+- IP Address: `192.168.1.xxx`
+- Email: `user@domain.com`
+- File Paths: `/var/www/html/...`
+- Percentages: `85%`
+- Response Times: `2.5 seconds`
+- Error Types: `Database connection failed`
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+### 2. Menu Options
+- 1: Show Statistics
+- 2: Search Logs
+- 3: Show All Errors
+- 4: Show All Warnings
+- 5: Generate Report
+- 6: Export Report to File
+- 7: Exit
+
+## Regex Patterns Used
+- `(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})` - Timestamp
+- `(INFO|WARNING|ERROR|DEBUG)` - Log Level
+- `username=([a-zA-Z0-9@._-]+)` - Username
+- `(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})` - IP Address
+- `[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}` - Email
+
+## Learning Objectives
+- Understanding regular expressions
+- Pattern matching in Python
+- Log file analysis
+- Data extraction with regex
+- Report generation
