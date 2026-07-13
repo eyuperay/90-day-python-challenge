@@ -1,0 +1,46 @@
+============================================================
+SYSTEM INFORMATION REPORT
+============================================================
+Report Generated: 2026-07-13 19:48:47
+============================================================
+
+OPERATING SYSTEM
+----------------------------------------
+  system: Windows
+  release: 11
+  version: 10.0.26200
+  machine: AMD64
+  processor: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+  platform: Windows-11-10.0.26200-SP0
+  python_version: 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]
+  python_implementation: CPython
+
+HARDWARE INFORMATION
+----------------------------------------
+  cpu_physical_cores: 8
+  cpu_logical_cores: 8
+  cpu_usage_percent: N/A (psutil not installed)
+  total_memory_gb: N/A (psutil not installed)
+  available_memory_gb: N/A (psutil not installed)
+  memory_usage_percent: N/A (psutil not installed)
+  total_disk_gb: N/A (psutil not installed)
+  used_disk_gb: N/A (psutil not installed)
+  free_disk_gb: N/A (psutil not installed)
+  disk_usage_percent: N/A (psutil not installed)
+
+NETWORK INFORMATION
+----------------------------------------
+  hostname: LAPTOP-Q8GUBUB4
+  ip_address: 192.168.1.20
+  all_ips: 172.27.16.1, 192.168.1.20
+
+ENVIRONMENT
+----------------------------------------
+  current_directory: C:\Users\Eyup\Desktop\90-day-python-challenge\day63-system-info
+  home_directory: C:\Users\Eyup
+  user: Eyup
+  computer_name: LAPTOP-Q8GUBUB4
+
+============================================================
+END OF REPORT
+============================================================

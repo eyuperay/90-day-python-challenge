@@ -1,0 +1,3 @@
+﻿# Day 63 - System Information
+# Uses built-in modules: platform, os, sys, datetime, socket, json
+# For psutil: pip install psutil (optional, for detailed system info)
