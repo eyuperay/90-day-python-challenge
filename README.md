@@ -2922,3 +2922,74 @@ python main.py
 - Resource management
 - Error handling with contexts
 - Real-world applications
+
+# Day 57 - Custom Exceptions
+
+## About This Project
+This project demonstrates creating and using custom exception classes in Python.
+
+## Features
+- Custom exception hierarchy
+- Error codes
+- Meaningful error messages
+- Exception categories
+- Exception handling utility
+
+## Exception Categories
+
+| Category | Code Range | Description |
+|----------|------------|-------------|
+| User Errors | 1000-1999 | User-related errors |
+| Auth Errors | 2000-2999 | Authentication errors |
+| Database Errors | 3000-3999 | Database operation errors |
+| Validation Errors | 4000-4999 | Data validation errors |
+| Business Errors | 5000-5999 | Business logic errors |
+| File Errors | 6000-6999 | File operation errors |
+| Network Errors | 7000-7999 | Network/API errors |
+
+## Examples
+
+### User Exceptions
+- UserNotFoundError
+- UserAlreadyExistsError
+- InvalidEmailError
+- InvalidPasswordError
+- UserNotAuthorizedError
+
+### Authentication Exceptions
+- LoginFailedError
+- TokenExpiredError
+- TokenInvalidError
+
+### Database Exceptions
+- ConnectionError
+- QueryError
+- RecordNotFoundError
+- DuplicateRecordError
+
+### Validation Exceptions
+- FieldRequiredError
+- InvalidFieldValueError
+- OutOfRangeError
+- LengthExceededError
+
+### Business Exceptions
+- InsufficientBalanceError
+- ProductOutOfStockError
+- OrderAlreadyCancelledError
+- PaymentFailedError
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+### 2. Use in your code
+```python
+from exceptions import UserNotFoundError
+
+try:
+    raise UserNotFoundError(123)
+except UserNotFoundError as e:
+    print(f"Error: {e}")
+    print(f"Code: {e.code}")
