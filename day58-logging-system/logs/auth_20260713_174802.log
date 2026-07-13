@@ -1,0 +1,2 @@
+2026-07-13 17:48:02 | WARNING  | main.py:79 | Auth: User login failed
+2026-07-13 17:48:02 | ERROR    | main.py:80 | Auth: Multiple failed attempts

@@ -1,0 +1,7 @@
+2026-07-13 17:48:02 | INFO     | logger_config.py:158 | Starting: Database query
+2026-07-13 17:48:02 | INFO     | logger_config.py:166 | Completed: Database query in 0.5008s
+2026-07-13 17:48:02 | INFO     | logger_config.py:158 | Starting: API call
+2026-07-13 17:48:02 | INFO     | logger_config.py:166 | Completed: API call in 0.3008s
+2026-07-13 17:48:02 | INFO     | logger_config.py:158 | Starting: Error operation
+2026-07-13 17:48:02 | ERROR    | logger_config.py:162 | Failed: Error operation - Something went wrong!
+2026-07-13 17:48:02 | INFO     | logger_config.py:166 | Completed: Error operation in 0.1024s

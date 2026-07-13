@@ -1,0 +1,5 @@
+2026-07-13 17:48:02 | DEBUG    | main.py:37 | This is a DEBUG message
+2026-07-13 17:48:02 | INFO     | main.py:38 | This is an INFO message
+2026-07-13 17:48:02 | WARNING  | main.py:39 | This is a WARNING message
+2026-07-13 17:48:02 | ERROR    | main.py:40 | This is an ERROR message
+2026-07-13 17:48:02 | CRITICAL | main.py:41 | This is a CRITICAL message

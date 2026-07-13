@@ -1,0 +1,4 @@
+2026-07-13 17:48:03 | INFO     | main.py:195 | Connecting to database...
+2026-07-13 17:48:03 | DEBUG    | main.py:197 | Connection established successfully
+2026-07-13 17:48:03 | WARNING  | main.py:212 | Database query slow: 2.5s
+2026-07-13 17:48:03 | ERROR    | main.py:216 | Database error: Database connection lost
