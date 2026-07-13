@@ -2806,3 +2806,27 @@ python main.py
 - Inheritance with dataclasses
 - Immutable dataclasses
 - Real-world applications
+
+# Day 55 - Enum Usage
+
+## About This Project
+This project demonstrates Python's `enum` module for creating type-safe constants with named values.
+
+## Features
+- Basic enum usage
+- Auto values (auto())
+- Enum with methods
+- IntEnum (integer enums)
+- Enums with custom properties
+- Functional creation
+- Real-world examples
+- Utility functions
+
+## Enum Types
+
+### Basic Enum
+```python
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
