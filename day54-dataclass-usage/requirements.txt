@@ -1,0 +1,3 @@
+﻿# Day 54 - Dataclass Usage
+# Uses only built-in modules: dataclasses, datetime, typing
+# No external dependencies needed
