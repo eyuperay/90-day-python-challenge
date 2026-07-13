@@ -3131,3 +3131,87 @@ ls logs/
 - Error handling in tasks
 - Task management
 - Real-world scheduling scenarios
+
+
+# Day 62 - CLI Tool
+
+## About This Project
+This project demonstrates building a command-line interface (CLI) tool using Python's `argparse` module.
+
+## Features
+- Multiple subcommands
+- Command-line arguments
+- Help system
+- Verbose output
+- Version information
+- Various utilities
+
+## Commands
+
+### Hello
+python cli_tool.py hello --name John
+python cli_tool.py hello --name John -u
+
+### Math
+python cli_tool.py math add 5 3
+python cli_tool.py math sub 10 4
+python cli_tool.py math mul 6 7
+python cli_tool.py math div 15 3
+python cli_tool.py math pow 2 8
+
+### File Operations
+python cli_tool.py file read data.txt
+python cli_tool.py file read data.txt --lines 5
+python cli_tool.py file write output.txt "Hello World"
+python cli_tool.py file write output.txt "New line" --append
+python cli_tool.py file list
+python cli_tool.py file list --path ./output
+python cli_tool.py file list --json
+
+### Generate Data
+python cli_tool.py generate numbers --count 10
+python cli_tool.py generate numbers --min 10 --max 50 --count 5
+python cli_tool.py generate password
+python cli_tool.py generate password --length 20
+python cli_tool.py generate password --no-special --no-digits
+python cli_tool.py generate uuid
+python cli_tool.py generate uuid --count 3
+
+### Weather (Demo)
+python cli_tool.py weather --city Istanbul
+python cli_tool.py weather --city Ankara --days 5
+
+### System
+python cli_tool.py system info
+python cli_tool.py system info --json
+python cli_tool.py system time
+python cli_tool.py system time --format "%%H:%%M:%%S"
+
+### Convert
+python cli_tool.py convert temp 25 -f C -t F
+python cli_tool.py convert temp 100 -f F -t C
+python cli_tool.py convert temp 0 -f C -t K
+python cli_tool.py convert length 10 -f m -t km
+python cli_tool.py convert length 100 -f cm -t in
+
+### Global Options
+python cli_tool.py -v hello --name John
+python cli_tool.py --version
+python cli_tool.py -h
+
+## Usage
+
+### 1. Run the tool
+python cli_tool.py [command] [options]
+
+### 2. Get help
+python cli_tool.py -h
+python cli_tool.py hello -h
+
+## Learning Objectives
+- Using argparse
+- Creating subcommands
+- Handling command-line arguments
+- Building CLI tools
+- User interaction
+- Utility functions
