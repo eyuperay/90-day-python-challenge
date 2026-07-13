@@ -1,0 +1,3 @@
+﻿# Day 57 - Custom Exceptions
+# Uses only built-in modules
+# No external dependencies needed
