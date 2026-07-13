@@ -1,0 +1,3 @@
+﻿# Day 55 - Enum Usage
+# Uses only built-in modules: enum, datetime
+# No external dependencies needed
