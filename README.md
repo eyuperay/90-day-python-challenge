@@ -2736,3 +2736,73 @@ python main.py
 - Cache management
 - Understanding LRU algorithm
 - Practical caching scenarios
+
+# Day 54 - Dataclass Usage
+
+## About This Project
+This project demonstrates Python dataclasses for creating clean, readable data structures with minimal boilerplate code.
+
+## Features
+- Basic dataclass usage
+- Default values and factory
+- Inheritance with dataclasses
+- Validation with __post_init__
+- Frozen (immutable) dataclasses
+- Real-world examples
+- Performance comparison
+
+## Dataclass vs Traditional Class
+
+### Traditional Class (~15 lines)
+class Person:
+    def __init__(self, name, age, email, city="Unknown"):
+        self.name = name
+        self.age = age
+        self.email = email
+        self.city = city
+
+    def __repr__(self):
+        return f"Person(name={self.name!r}, age={self.age!r}, email={self.email!r}, city={self.city!r})"
+
+    def __eq__(self, other):
+        if not isinstance(other, Person):
+            return False
+        return (self.name == other.name and self.age == other.age and
+                self.email == other.email and self.city == other.city)
+
+### Dataclass (~4 lines)
+@dataclass
+class Person:
+    name: str
+    age: int
+    email: str
+    city: str = "Unknown"
+
+## Key Features
+- __init__: Automatically generated
+- __repr__: Beautiful string representation
+- __eq__: Value-based equality
+- __hash__: Optional with frozen=True
+- __post_init__: Custom validation
+
+## Real-World Examples
+1. Order Management: Order, OrderItem
+2. Employee Management: Employee with methods
+3. Student Records: Student with courses and grades
+4. User Management: User, Admin, Customer inheritance
+
+## Performance
+Dataclass is typically faster than traditional classes due to optimized code generation.
+
+## Usage
+
+### Run the program
+python main.py
+
+## Learning Objectives
+- Understanding dataclasses
+- Reducing boilerplate code
+- Using __post_init__ for validation
+- Inheritance with dataclasses
+- Immutable dataclasses
+- Real-world applications
