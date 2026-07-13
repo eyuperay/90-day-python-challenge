@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 15000,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 200,
+      "category": "Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Keyboard",
+      "price": 500,
+      "category": "Accessories"
+    },
+    {
+      "id": 4,
+      "name": "Monitor",
+      "price": 3500,
+      "category": "Electronics"
+    }
+  ]
+}

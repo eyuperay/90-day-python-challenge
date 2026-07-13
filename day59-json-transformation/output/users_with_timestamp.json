@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ahmet Yilmaz",
+      "email": "ahmet@email.com",
+      "age": 30,
+      "address": {
+        "city": "Istanbul",
+        "district": "Kadikoy",
+        "zip": "34700"
+      },
+      "orders": [
+        {
+          "id": 101,
+          "amount": 150.5,
+          "date": "2026-01-15"
+        },
+        {
+          "id": 102,
+          "amount": 75.0,
+          "date": "2026-01-20"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Mehmet Demir",
+      "email": "mehmet@email.com",
+      "age": 25,
+      "address": {
+        "city": "Ankara",
+        "district": "Cankaya",
+        "zip": "06500"
+      },
+      "orders": [
+        {
+          "id": 103,
+          "amount": 200.0,
+          "date": "2026-01-18"
+        }
+      ],
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Ayse Kaya",
+      "email": "ayse@email.com",
+      "age": 28,
+      "address": {
+        "city": "Izmir",
+        "district": "Bornova",
+        "zip": "35000"
+      },
+      "orders": [],
+      "active": false
+    }
+  ],
+  "timestamp": "2026-07-13T17:55:20.629071",
+  "processed_at": "2026-07-13 17:55:20"
+}

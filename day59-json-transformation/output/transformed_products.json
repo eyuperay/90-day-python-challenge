@@ -1,0 +1,36 @@
+{
+  "transformed_products": [
+    {
+      "product_id": 1,
+      "name": "LAPTOP",
+      "price": 15000,
+      "price_with_tax": 17700.0,
+      "category": "Electronics",
+      "in_stock": true
+    },
+    {
+      "product_id": 2,
+      "name": "MOUSE",
+      "price": 200,
+      "price_with_tax": 236.0,
+      "category": "Accessories",
+      "in_stock": true
+    },
+    {
+      "product_id": 3,
+      "name": "KEYBOARD",
+      "price": 500,
+      "price_with_tax": 590.0,
+      "category": "Accessories",
+      "in_stock": true
+    },
+    {
+      "product_id": 4,
+      "name": "MONITOR",
+      "price": 3500,
+      "price_with_tax": 4130.0,
+      "category": "Electronics",
+      "in_stock": true
+    }
+  ]
+}
