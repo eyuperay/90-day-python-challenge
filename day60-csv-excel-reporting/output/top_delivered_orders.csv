@@ -1,0 +1,11 @@
+﻿id,product,category,region,price,quantity,total,date,status
+11,Monitor,Accessories,North,1866.62,18,33599.16,2026-07-13,Delivered
+5,Keyboard,Office,Central,1956.63,15,29349.45,2026-07-13,Delivered
+20,Scanner,Electronics,Central,1446.66,19,27486.54,2026-07-13,Delivered
+9,Monitor,Computers,North,1776.02,15,26640.3,2026-07-13,Delivered
+81,Keyboard,Office,North,1450.66,14,20309.24,2026-07-13,Delivered
+79,Printer,Accessories,South,1226.82,16,19629.12,2026-07-13,Delivered
+1,Printer,Accessories,North,1397.79,13,18171.27,2026-07-13,Delivered
+34,Monitor,Office,North,926.41,19,17601.79,2026-07-13,Delivered
+69,Laptop,Accessories,North,1653.64,10,16536.4,2026-07-13,Delivered
+17,Keyboard,Office,West,1417.61,11,15593.71,2026-07-13,Delivered

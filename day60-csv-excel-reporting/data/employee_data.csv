@@ -1,0 +1,51 @@
+﻿id,name,department,position,salary,hire_date,city,status
+1,Employee_1,Marketing,Junior,36873,2026-07-13,Antalya,Active
+2,Employee_2,HR,Junior,121911,2026-07-13,Bursa,Inactive
+3,Employee_3,Engineering,Intern,148439,2026-07-13,Izmir,Inactive
+4,Employee_4,Sales,Senior,97301,2026-07-13,Istanbul,Inactive
+5,Employee_5,Marketing,Manager,42264,2026-07-13,Antalya,On Leave
+6,Employee_6,Sales,Manager,34678,2026-07-13,Bursa,Active
+7,Employee_7,Marketing,Intern,38981,2026-07-13,Bursa,On Leave
+8,Employee_8,Engineering,Senior,108550,2026-07-13,Ankara,On Leave
+9,Employee_9,HR,Manager,113035,2026-07-13,Izmir,Active
+10,Employee_10,Finance,Intern,133432,2026-07-13,Istanbul,Inactive
+11,Employee_11,HR,Junior,89031,2026-07-13,Bursa,Inactive
+12,Employee_12,Sales,Lead,111965,2026-07-13,Istanbul,Active
+13,Employee_13,Marketing,Junior,62595,2026-07-13,Antalya,On Leave
+14,Employee_14,HR,Intern,41733,2026-07-13,Bursa,Active
+15,Employee_15,Marketing,Senior,83714,2026-07-13,Istanbul,Inactive
+16,Employee_16,Finance,Intern,83871,2026-07-13,Antalya,Inactive
+17,Employee_17,Engineering,Intern,70129,2026-07-13,Bursa,On Leave
+18,Employee_18,Engineering,Manager,129053,2026-07-13,Istanbul,Active
+19,Employee_19,HR,Junior,91877,2026-07-13,Ankara,On Leave
+20,Employee_20,Engineering,Senior,86350,2026-07-13,Bursa,On Leave
+21,Employee_21,Marketing,Senior,33761,2026-07-13,Antalya,Inactive
+22,Employee_22,HR,Junior,100939,2026-07-13,Izmir,On Leave
+23,Employee_23,Engineering,Manager,69641,2026-07-13,Antalya,Active
+24,Employee_24,HR,Lead,56131,2026-07-13,Bursa,Active
+25,Employee_25,Marketing,Junior,88470,2026-07-13,Ankara,Active
+26,Employee_26,Finance,Junior,96284,2026-07-13,Ankara,Inactive
+27,Employee_27,Marketing,Intern,91494,2026-07-13,Istanbul,Active
+28,Employee_28,Marketing,Lead,109405,2026-07-13,Bursa,Inactive
+29,Employee_29,HR,Senior,107366,2026-07-13,Bursa,Active
+30,Employee_30,Marketing,Intern,149376,2026-07-13,Bursa,Active
+31,Employee_31,Engineering,Lead,31694,2026-07-13,Istanbul,On Leave
+32,Employee_32,Finance,Manager,111149,2026-07-13,Antalya,Inactive
+33,Employee_33,HR,Lead,120180,2026-07-13,Antalya,On Leave
+34,Employee_34,Sales,Intern,128850,2026-07-13,Izmir,Active
+35,Employee_35,Finance,Senior,64452,2026-07-13,Ankara,Active
+36,Employee_36,Marketing,Manager,133802,2026-07-13,Izmir,Active
+37,Employee_37,Finance,Senior,92145,2026-07-13,Bursa,On Leave
+38,Employee_38,Engineering,Senior,114278,2026-07-13,Izmir,On Leave
+39,Employee_39,Finance,Manager,111909,2026-07-13,Istanbul,Inactive
+40,Employee_40,Finance,Manager,31466,2026-07-13,Bursa,Active
+41,Employee_41,Finance,Senior,129503,2026-07-13,Izmir,Inactive
+42,Employee_42,HR,Senior,50928,2026-07-13,Antalya,Inactive
+43,Employee_43,Sales,Intern,133047,2026-07-13,Antalya,On Leave
+44,Employee_44,Engineering,Lead,71073,2026-07-13,Istanbul,Active
+45,Employee_45,Engineering,Senior,74104,2026-07-13,Bursa,On Leave
+46,Employee_46,Sales,Lead,51771,2026-07-13,Ankara,Active
+47,Employee_47,Engineering,Senior,79155,2026-07-13,Antalya,Inactive
+48,Employee_48,Finance,Lead,30383,2026-07-13,Antalya,Active
+49,Employee_49,Engineering,Senior,43831,2026-07-13,Ankara,On Leave
+50,Employee_50,Engineering,Intern,115976,2026-07-13,Bursa,On Leave
