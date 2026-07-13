@@ -1,0 +1,107 @@
+============================================================
+UNIT TEST REPORT
+============================================================
+Report Generated: 2026-07-13 14:39:14
+============================================================
+
+Tests Run: 42
+Failures: 0
+Errors: 0
+Skipped: 0
+
+[PASS] All tests passed successfully!
+[OK] Test coverage is comprehensive
+
+============================================================
+[OK] Test report generated successfully
+============================================================
+
+test_add_floats (test_calculator.TestCalculator.test_add_floats)
+Test adding floating point numbers ... ok
+test_add_negative_numbers (test_calculator.TestCalculator.test_add_negative_numbers)
+Test adding negative numbers ... ok
+test_add_positive_numbers (test_calculator.TestCalculator.test_add_positive_numbers)
+Test adding two positive numbers ... ok
+test_add_zero (test_calculator.TestCalculator.test_add_zero)
+Test adding with zero ... ok
+test_average_empty_list (test_calculator.TestCalculator.test_average_empty_list)
+Test average of empty list raises ValueError ... ok
+test_average_negative_numbers (test_calculator.TestCalculator.test_average_negative_numbers)
+Test average of negative numbers ... ok
+test_average_positive_numbers (test_calculator.TestCalculator.test_average_positive_numbers)
+Test average of positive numbers ... ok
+test_divide_by_zero (test_calculator.TestCalculator.test_divide_by_zero)
+Test division by zero raises ValueError ... ok
+test_divide_negative_numbers (test_calculator.TestCalculator.test_divide_negative_numbers)
+Test dividing negative numbers ... ok
+test_divide_positive_numbers (test_calculator.TestCalculator.test_divide_positive_numbers)
+Test dividing positive numbers ... ok
+test_factorial_float (test_calculator.TestCalculator.test_factorial_float)
+Test factorial of float raises TypeError ... ok
+test_factorial_negative (test_calculator.TestCalculator.test_factorial_negative)
+Test factorial of negative number raises ValueError ... ok
+test_factorial_positive (test_calculator.TestCalculator.test_factorial_positive)
+Test factorial of positive numbers ... ok
+test_fibonacci_one (test_calculator.TestCalculator.test_fibonacci_one)
+Test Fibonacci sequence with one term ... ok
+test_fibonacci_positive (test_calculator.TestCalculator.test_fibonacci_positive)
+Test Fibonacci sequence with positive terms ... ok
+test_fibonacci_zero (test_calculator.TestCalculator.test_fibonacci_zero)
+Test Fibonacci sequence with zero terms ... ok
+test_gcd_negative_numbers (test_calculator.TestCalculator.test_gcd_negative_numbers)
+Test GCD of negative numbers ... ok
+test_gcd_positive_numbers (test_calculator.TestCalculator.test_gcd_positive_numbers)
+Test GCD of positive numbers ... ok
+test_gcd_with_zero (test_calculator.TestCalculator.test_gcd_with_zero)
+Test GCD with zero ... ok
+test_is_even_false (test_calculator.TestCalculator.test_is_even_false)
+Test odd numbers return False ... ok
+test_is_even_true (test_calculator.TestCalculator.test_is_even_true)
+Test even numbers return True ... ok
+test_is_not_prime (test_calculator.TestCalculator.test_is_not_prime)
+Test non-prime numbers return False ... ok
+test_is_prime (test_calculator.TestCalculator.test_is_prime)
+Test prime numbers return True ... ok
+test_lcm_positive_numbers (test_calculator.TestCalculator.test_lcm_positive_numbers)
+Test LCM of positive numbers ... ok
+test_lcm_with_zero (test_calculator.TestCalculator.test_lcm_with_zero)
+Test LCM with zero ... ok
+test_multiply_negative_numbers (test_calculator.TestCalculator.test_multiply_negative_numbers)
+Test multiplying negative numbers ... ok
+test_multiply_positive_numbers (test_calculator.TestCalculator.test_multiply_positive_numbers)
+Test multiplying positive numbers ... ok
+test_multiply_with_zero (test_calculator.TestCalculator.test_multiply_with_zero)
+Test multiplying with zero ... ok
+test_power_negative_exponent (test_calculator.TestCalculator.test_power_negative_exponent)
+Test power with negative exponent ... ok
+test_power_positive_exponent (test_calculator.TestCalculator.test_power_positive_exponent)
+Test power with positive exponent ... ok
+test_power_zero_exponent (test_calculator.TestCalculator.test_power_zero_exponent)
+Test power with zero exponent ... ok
+test_square_root_negative (test_calculator.TestCalculator.test_square_root_negative)
+Test square root of negative number raises ValueError ... ok
+test_square_root_positive (test_calculator.TestCalculator.test_square_root_positive)
+Test square root of positive numbers ... ok
+test_square_root_zero (test_calculator.TestCalculator.test_square_root_zero)
+Test square root of zero ... ok
+test_subtract_negative_numbers (test_calculator.TestCalculator.test_subtract_negative_numbers)
+Test subtracting negative numbers ... ok
+test_subtract_positive_numbers (test_calculator.TestCalculator.test_subtract_positive_numbers)
+Test subtracting positive numbers ... ok
+test_invalid_emails (test_calculator.TestEmailValidation.test_invalid_emails)
+Test invalid email addresses ... ok
+test_valid_emails (test_calculator.TestEmailValidation.test_valid_emails)
+Test valid email addresses ... ok
+test_greet_empty_name (test_calculator.TestGreetFunction.test_greet_empty_name)
+Test greet with empty name ... ok
+test_greet_with_name (test_calculator.TestGreetFunction.test_greet_with_name)
+Test greet with a name ... ok
+test_celsius_to_fahrenheit (test_calculator.TestTemperatureConversion.test_celsius_to_fahrenheit)
+Test Celsius to Fahrenheit conversion ... ok
+test_fahrenheit_to_celsius (test_calculator.TestTemperatureConversion.test_fahrenheit_to_celsius)
+Test Fahrenheit to Celsius conversion ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.001s
+
+OK
