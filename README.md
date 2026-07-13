@@ -2985,7 +2985,8 @@ This project demonstrates creating and using custom exception classes in Python.
 python main.py
 
 ### 2. Use in your code
-```python
+
+
 from exceptions import UserNotFoundError
 
 try:
@@ -2993,3 +2994,57 @@ try:
 except UserNotFoundError as e:
     print(f"Error: {e}")
     print(f"Code: {e.code}")
+
+# Day 58 - Logging System
+
+## About This Project
+This project demonstrates Python's built-in `logging` module for professional logging.
+
+## Features
+- Multiple log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+- Console and file logging
+- Module-specific loggers
+- Logger factory pattern
+- Timing context manager
+- Function call logging decorator
+- Log file rotation
+- Real-world scenarios
+
+## Log Levels
+
+| Level | Value | Usage |
+|-------|-------|-------|
+| DEBUG | 10 | Detailed debugging information |
+| INFO | 20 | General application events |
+| WARNING | 30 | Warning messages |
+| ERROR | 40 | Error messages |
+| CRITICAL | 50 | Critical errors |
+
+## Components
+
+### Logger
+Main logging object. Creates log messages.
+
+### Handler
+Sends logs to destinations:
+- StreamHandler (console)
+- FileHandler (file)
+- RotatingFileHandler (rotated files)
+
+### Formatter
+Formats log messages:
+- Timestamp
+- Log level
+- Module name
+- Line number
+- Message
+
+## Examples
+
+### Basic Logger
+```python
+logger = setup_logger('app', 'INFO')
+logger.info("Application started")
+logger.error("Error occurred")
+
+    
