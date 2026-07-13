@@ -1,0 +1,3 @@
+﻿# Day 56 - Context Manager
+# Uses only built-in modules: time, datetime, sqlite3
+# No external dependencies needed

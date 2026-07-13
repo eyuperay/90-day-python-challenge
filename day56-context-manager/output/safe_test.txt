@@ -1,0 +1,2 @@
+This is written with open_file_safe
+Line 2
