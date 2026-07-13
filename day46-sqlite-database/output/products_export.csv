@@ -1,0 +1,11 @@
+id,name,category,price,stock_quantity,supplier,created_at
+1,Laptop Pro,Electronics,1200.0,50,TechSupplier Inc,2026-07-13 07:36:07
+2,Smartphone X,Electronics,800.0,100,MobileWorld Ltd,2026-07-13 07:36:07
+3,Tablet Air,Computers,500.0,75,TechSupplier Inc,2026-07-13 07:36:07
+4,Smart Watch,Accessories,300.0,200,WearableTech Co,2026-07-13 07:36:07
+5,Wireless Earbuds,Audio,150.0,300,AudioPro LLC,2026-07-13 07:36:07
+6,Gaming Console,Gaming,450.0,40,GameMaster Corp,2026-07-13 07:36:07
+7,Monitor Ultra,Computers,350.0,60,DisplayTech Inc,2026-07-13 07:36:07
+8,Keyboard Mech,Accessories,120.0,150,InputDevices Ltd,2026-07-13 07:36:07
+9,Mouse Pro,Accessories,80.0,200,InputDevices Ltd,2026-07-13 07:36:08
+10,External SSD,Computers,200.0,90,StoragePro Inc,2026-07-13 07:36:08

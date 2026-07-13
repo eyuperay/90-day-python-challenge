@@ -1,0 +1,5 @@
+id,customer_id,order_date,total_amount,status
+1,1,2026-07-13 07:36:08,971.29,processing
+2,2,2026-07-13 07:36:08,1249.77,shipped
+3,3,2026-07-13 07:36:08,329.75,delivered
+4,4,2026-07-13 07:36:08,1061.73,pending

@@ -1,0 +1,9 @@
+id,first_name,last_name,email,phone,city,created_at
+1,Ahmet,Yilmaz,ahmet@email.com,555-0101,Istanbul,2026-07-13 07:36:08
+2,Mehmet,Demir,mehmet@email.com,555-0102,Ankara,2026-07-13 07:36:08
+3,Ayse,Kaya,ayse@email.com,555-0103,Izmir,2026-07-13 07:36:08
+4,Fatma,Celik,fatma@email.com,555-0104,Bursa,2026-07-13 07:36:08
+5,Ali,Ozturk,ali@email.com,555-0105,Antalya,2026-07-13 07:36:08
+6,Zeynep,Aydin,zeynep@email.com,555-0106,Konya,2026-07-13 07:36:08
+7,Emre,Sahin,emre@email.com,555-0107,Adana,2026-07-13 07:36:08
+8,Elif,Karaca,elif@email.com,555-0108,Gaziantep,2026-07-13 07:36:08
