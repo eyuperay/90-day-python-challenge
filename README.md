@@ -3067,8 +3067,28 @@ This project demonstrates JSON operations including reading, writing, transformi
 ## JSON Operations
 
 ### Read Operations
-```python
+
 data = handler.read_json("file.json")
 data = handler.read_json_string('{"key": "value"}')
 
-   
+# Day 60 - CSV/Excel Reporting
+
+## About This Project
+This project demonstrates generating reports in CSV and Excel formats with data analysis capabilities.
+
+## Features
+- Generate sample sales/employee data
+- Read/write CSV files
+- Create summary reports
+- Create pivot reports
+- Filter and sort data
+- Export to multiple formats (CSV, JSON, HTML)
+- Statistics generation
+
+## Report Types
+
+### Summary Report
+```python
+summary = generator.create_summary_report(data, 'region', 'sum')
+
+ 
