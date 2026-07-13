@@ -2269,3 +2269,76 @@ python main.py
 - Data summarization and aggregation
 - Correlation analysis
 - Professional data presentation
+
+
+# Day 46 - SQLite Database
+
+## About This Project
+This project demonstrates SQLite database operations with a product management system. It includes CRUD operations, relationships, and data reporting.
+
+## Database Schema
+- **products**: Product information (name, category, price, stock)
+- **customers**: Customer information (name, email, phone, city)
+- **orders**: Order headers (customer, total, status)
+- **order_items**: Order details (product, quantity, price)
+
+## Features
+- Complete CRUD operations
+- Foreign key relationships
+- Data export to CSV
+- Visual reports
+- Sample data generation
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the program
+python main.py
+
+### 3. Check outputs
+- Database: data/products.db
+- CSV exports: output/*.csv
+- Charts: output/*.png
+
+## Generated Reports
+
+### CSV Exports
+- products_export.csv - All products
+- customers_export.csv - All customers
+- orders_export.csv - All orders
+
+### Visualizations (PNG)
+- products_by_category.png - Bar chart
+- price_distribution.png - Histogram
+- orders_by_status.png - Pie chart
+
+## Sample Data
+The program automatically creates sample data including:
+- 10 products in 5 categories
+- 8 customers in 8 cities
+- 4 sample orders with items
+- Various order statuses
+
+## Database Operations Demonstrated
+- CREATE TABLE with constraints
+- INSERT with foreign keys
+- SELECT with JOIN
+- UPDATE with conditions
+- DELETE with WHERE clauses
+- Aggregate functions (COUNT, SUM, AVG)
+- GROUP BY and ORDER BY
+
+## Libraries Used
+- sqlite3 - Database operations
+- pandas - Data processing and export
+- matplotlib - Visualization
+- seaborn - Styling
+
+## Learning Objectives
+- SQLite database operations
+- CRUD operations in Python
+- Foreign key relationships
+- Data export and reporting
+- Database visualization
