@@ -1,0 +1,3 @@
+﻿# Day 51 - Performance Profiling
+# Uses only built-in modules: cProfile, pstats, time, random, math
+# No external dependencies needed
