@@ -3580,3 +3580,67 @@ python main.py
 - Watermarking
 - Thumbnail creation
 - Pillow library usage
+
+# Day 69 - QR Code Generator
+
+## About This Project
+This project demonstrates QR code generation using Python's qrcode library.
+
+## Features
+- Basic QR code generation
+- Colored QR codes
+- Styled QR codes (rounded modules, gradients)
+- vCard QR codes (contact information)
+- WiFi QR codes
+- URL QR codes
+- Text QR codes
+- Batch QR code generation
+- Invoice QR codes
+
+## QR Code Types
+
+### 1. Basic QR
+Simple black and white QR code
+
+### 2. Colored QR
+QR code with custom colors
+
+### 3. Styled QR
+QR code with rounded modules and gradients
+
+### 4. vCard QR
+Contact information (name, phone, email, company)
+
+### 5. WiFi QR
+WiFi network credentials (SSID, password, security)
+
+### 6. URL QR
+Website or link
+
+### 7. Text QR
+Any text message
+
+### 8. Batch QR
+Generate multiple QR codes at once
+
+### 9. Invoice QR
+Invoice data in JSON format
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the program
+python main.py
+
+### 3. Select QR code type and enter data
+
+## Learning Objectives
+- QR code generation
+- qrcode library usage
+- Customizing QR codes
+- vCard format
+- WiFi QR format
+- Batch processing
+- JSON data encoding
