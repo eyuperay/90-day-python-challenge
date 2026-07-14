@@ -4372,95 +4372,202 @@ This project demonstrates sentiment analysis using TextBlob and NLTK.
 ``bash
 pip install -r requirements.txt
 
-# Day 86 - Dockerfile Oluşturma
+# Day 86 - Dockerfile Creation
 
-## Proje Hakkında
-Bu proje, bir Python Flask uygulaması için Dockerfile oluşturmayı gösterir. Multi-stage build, non-root user, health check ve optimizasyon tekniklerini içerir.
+## About This Project
+This project demonstrates creating a Dockerfile for a Python Flask application. It includes multi-stage build, non-root user, health check, and optimization techniques.
 
-## Dockerfile Özellikleri
+## Dockerfile Features
 
 ### Multi-stage Build
-- Builder stage: Bağımlılıkları yükler
-- Final stage: Uygulamayı çalıştırır
-- Daha küçük imaj boyutu
+- Builder stage: Installs dependencies
+- Final stage: Runs the application
+- Smaller image size
 
-### Güvenlik
-- Non-root user (appuser) oluşturur
-- Root yetkileriyle çalışmaz
+### Security
+- Creates non-root user (appuser)
+- Does not run with root privileges
 
-### Performans
-- Python 3.11-slim (küçük boyut)
-- pip cache temizlenir
-- Layer caching için requirements.txt önce kopyalanır
+### Performance
+- Python 3.11-slim (small size)
+- pip cache cleaned
+- requirements.txt copied first for layer caching
 
 ### Health Check
-- /api/health endpoint'i kontrol edilir
-- 30 saniye aralıkla
-- 5 saniye başlangıç bekleme süresi
+- /api/health endpoint checked
+- 30 second interval
+- 5 second start period
 
-## Docker Komutları
+## Docker Commands
 
-### 1. İmajı Build Et
-``bash
+### 1. Build the Image
 docker build -t my-flask-app .
 
-# Day 87 - Docker Compose ile Çoklu Servis
+### 2. Run the Container
+docker run -d -p 5000:5000 --name flask-app my-flask-app
 
-## Proje Hakkında
-Bu proje, Docker Compose ile çoklu servis uygulaması oluşturmayı gösterir. Flask, PostgreSQL ve Redis servislerini içerir.
+### 3. Stop the Container
+docker stop flask-app
 
-## Servisler
+### 4. Remove the Container
+docker rm flask-app
+
+### 5. Remove the Image
+docker rmi my-flask-app
+
+### 6. View Logs
+docker logs flask-app
+
+### 7. Enter Container
+docker exec -it flask-app bash
+
+### 8. Check Image Size
+docker images my-flask-app
+
+## Test Commands
+curl http://localhost:5000/api/health
+curl http://localhost:5000/api/info
+curl http://localhost:5000/api/time
+
+## Learning Objectives
+- Writing Dockerfile
+- Multi-stage build
+- Non-root user
+- Health check
+- .dockerignore usage
+- Container management
+- Docker CLI commands
+
+# Day 87 - Docker Compose Multi-Service
+
+## About This Project
+This project demonstrates creating a multi-service application with Docker Compose. It includes Flask, PostgreSQL, and Redis services.
+
+## Services
 
 ### Flask App
-- Web uygulaması
+- Web application
 - Port: 5000
-- Veritabanı ve cache ile iletişim kurar
+- Communicates with database and cache
 
 ### PostgreSQL
-- Ana veritabanı
+- Main database
 - Port: 5432
-- Kullanıcı: postgres / Şifre: postgres
-- Veritabanı: appdb
+- User: postgres / Password: postgres
+- Database: appdb
 
 ### Redis
-- Cache ve counter
+- Cache and counter
 - Port: 6379
 
-### pgAdmin (Opsiyonel)
-- PostgreSQL yönetim arayüzü
+### pgAdmin (Optional)
+- PostgreSQL management interface
 - Port: 5050
-- Email: admin@example.com / Şifre: admin
+- Email: admin@example.com / Password: admin
 
-## Docker Compose Komutları
+## Docker Compose Commands
 
-### 1. Servisleri Başlat
-``bash
+### 1. Start Services
 docker-compose up -d
 
-# Day 88 - Git ile Branch Yönetimi
+### 2. Stop Services
+docker-compose down
 
-## Proje Hakkında
-Bu proje, Git branch yönetimini öğrenmek için oluşturulmuş bir örnek projedir. Feature branch'ler, merge, rebase ve conflict çözümü gösterilir.
+### 3. Restart Services
+docker-compose restart
 
-## Git Branch Komutları
+### 4. View Logs
+docker-compose logs -f
 
-### Branch Oluşturma ve Yönetimi
+### 5. View Specific Service Logs
+docker-compose logs -f app
 
-``bash
-# Mevcut branch'i gör
+### 6. Rebuild and Start
+docker-compose up -d --build
+
+### 7. Check Service Status
+docker-compose ps
+
+### 8. Connect to Database
+docker exec -it postgres_db psql -U postgres -d appdb
+
+### 9. Connect to Redis
+docker exec -it redis_cache redis-cli
+
+## Test Commands
+curl http://localhost:5000/api/health
+curl -X POST http://localhost:5000/visit
+curl http://localhost:5000/api/stats
+
+## Learning Objectives
+- Docker Compose
+- Multi-service architecture
+- Service orchestration
+- Volumes and networks
+- Environment variables
+- Health checks
+- Service dependencies
+
+# Day 88 - Git Branch Management
+
+## About This Project
+This project demonstrates Git branch management. It covers feature branches, merge, rebase, and conflict resolution.
+
+## Git Branch Commands
+
+### Create and Manage Branches
 git branch
-
-# Yeni branch oluştur
 git branch feature-auth
-
-# Branch'e geç
 git checkout feature-auth
+git checkout -b feature-auth
+git branch -d feature-auth
+git branch -a
 
-# Branch oluştur ve geç
+### Merge Branches
+git checkout main
+git merge feature-auth
+git merge --abort
+
+### Rebase
+git rebase main
+git rebase --abort
+
+### Conflict Resolution
+git status
+git add .
+git commit -m "Fix conflicts"
+
+## Example Workflow
+
+### 1. Create Feature Branch
 git checkout -b feature-auth
 
-# Branch sil
+### 2. Make Changes
+git add features/auth.py
+git commit -m "Add authentication module"
+
+### 3. Switch to Main and Merge
+git checkout main
+git merge feature-auth
+
+### 4. Delete Feature Branch
 git branch -d feature-auth
 
-# Tüm branch'leri listele
-git branch -a
+## Branch Types
+
+| Branch | Description |
+|--------|-------------|
+| main | Main development branch |
+| feature/* | New feature branch |
+| bugfix/* | Bug fix branch |
+| hotfix/* | Urgent fix branch |
+| release/* | Release preparation branch |
+| develop | Development branch |
+
+## Learning Objectives
+- Creating branches
+- Switching branches
+- Merge operations
+- Rebase usage
+- Conflict resolution
+- Workflow management
