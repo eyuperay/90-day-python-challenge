@@ -3744,3 +3744,60 @@ python calculator.py
 - Keyboard bindings
 - Calculator logic
 - Error handling
+# Day 72 - Tkinter Notepad
+
+## About This Project
+This project demonstrates a simple text editor (notepad) with GUI using Python's built-in tkinter module.
+
+## Features
+- Create, open, save, save as files
+- Print text
+- Cut, copy, paste
+- Undo, redo
+- Find and replace text
+- Select all, delete
+- Word wrap toggle
+- Font size change
+- Toolbar and status bar toggle
+- Keyboard shortcuts
+- Status bar with cursor position
+
+## Keyboard Shortcuts
+
+### File
+| Shortcut | Action |
+|----------|--------|
+| Ctrl+N | New File |
+| Ctrl+O | Open File |
+| Ctrl+S | Save File |
+| Ctrl+Shift+S | Save As |
+| Ctrl+P | Print |
+| Ctrl+Q | Exit |
+
+### Edit
+| Shortcut | Action |
+|----------|--------|
+| Ctrl+Z | Undo |
+| Ctrl+Y | Redo |
+| Ctrl+X | Cut |
+| Ctrl+C | Copy |
+| Ctrl+V | Paste |
+| Ctrl+A | Select All |
+| Ctrl+F | Find |
+| Ctrl+H | Replace |
+
+## Usage
+
+### 1. Run the program
+python notepad.py
+
+## Learning Objectives
+- Tkinter GUI development
+- Menu creation
+- Toolbar creation
+- Status bar
+- File operations
+- Text editing
+- Keyboard shortcuts
+- Dialog windows
+- Event binding
