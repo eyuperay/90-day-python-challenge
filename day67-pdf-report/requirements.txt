@@ -1,0 +1,3 @@
+﻿# Day 67 - PDF Report
+# For PDF generation: pip install reportlab
+reportlab==4.2.2
