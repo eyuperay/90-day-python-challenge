@@ -4571,3 +4571,45 @@ git branch -d feature-auth
 - Rebase usage
 - Conflict resolution
 - Workflow management
+
+# Day 89 - GitHub Actions CI/CD Pipeline
+
+## About This Project
+This project demonstrates creating a CI/CD pipeline using GitHub Actions with automated testing, linting, and deployment.
+
+## Pipeline Workflow
+
+### CI Pipeline (ci.yml)
+- **Trigger**: Push/PR to main branch
+- **Jobs**:
+  1. Test (matrix: Python 3.9, 3.10, 3.11)
+     - Lint (flake8)
+     - Test (pytest with coverage)
+     - Security check (bandit)
+  2. Build
+     - Build Docker image
+     - Cache layers
+
+### CD Pipeline (cd.yml)
+- **Trigger**: Push to main branch / Release
+- **Jobs**:
+  1. Deploy
+     - Login to Docker Hub
+     - Build and push image
+     - Deploy to server
+     - Notify status
+
+## GitHub Secrets Required
+
+| Secret | Description |
+|--------|-------------|
+| `DOCKER_USERNAME` | Docker Hub username |
+| `DOCKER_PASSWORD` | Docker Hub password/pat |
+| `DEPLOY_SSH_KEY` | SSH key for deployment (optional) |
+| `DEPLOY_HOST` | Server host (optional) |
+
+## Local Testing
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
