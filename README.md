@@ -4336,3 +4336,38 @@ This project demonstrates text preprocessing techniques for Natural Language Pro
 ### 1. Install dependencies
 ``bash
 pip install -r requirements.txt
+
+# Day 85 - NLP Sentiment Analysis
+
+## About This Project
+This project demonstrates sentiment analysis using TextBlob and NLTK.
+
+## Features
+- Sentiment analysis (positive, negative, neutral)
+- Polarity and subjectivity scores
+- Sentence-level analysis
+- Batch analysis
+- Visualization (bar charts, pie charts, histograms)
+- Word frequency analysis
+- Multiple data sources (reviews, tweets, custom)
+
+## Key Metrics
+
+### Polarity
+- Range: -1 (very negative) to +1 (very positive)
+- 0 = neutral
+
+### Subjectivity
+- Range: 0 (very objective/factual) to 1 (very subjective/opinionated)
+- Higher = more personal opinion
+
+## Sentiment Classification
+- Polarity > 0.1: Positive
+- Polarity < -0.1: Negative
+- Polarity between -0.1 and 0.1: Neutral
+
+## Usage
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
