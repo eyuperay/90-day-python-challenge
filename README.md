@@ -3801,3 +3801,53 @@ python notepad.py
 - Keyboard shortcuts
 - Dialog windows
 - Event binding
+
+# Day 73 - Flask Web App
+
+## About This Project
+This project demonstrates building a simple web application using Flask framework.
+
+## Features
+- Routing with Flask
+- Template rendering with Jinja2
+- Static files (CSS)
+- Form handling
+- API endpoints (JSON)
+- Session management
+- Error handling (404, 500)
+- Context processors
+
+## Routes
+
+| Route | Method | Description |
+|-------|--------|-------------|
+| `/` | GET | Home page |
+| `/about` | GET | About page |
+| `/hello` | GET | Hello page |
+| `/hello/<name>` | GET | Hello with name |
+| `/users` | GET | List users |
+| `/user/<id>` | GET | User detail |
+| `/form` | GET/POST | Contact form |
+| `/api/users` | GET | Users API |
+| `/api/messages` | GET | Messages API |
+| `/api/time` | GET | Current time API |
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the application
+python app.py
+
+### 3. Open browser
+http://127.0.0.1:5000
+
+## Learning Objectives
+- Flask routing
+- Template rendering
+- Form handling
+- API development
+- Session management
+- Error handling
+- Static files
