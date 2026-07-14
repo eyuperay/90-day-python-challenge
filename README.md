@@ -4156,3 +4156,26 @@ This project demonstrates creating, configuring, and publishing a custom Python 
 ``bash
 pip install -e .
 
+# Day 80 - Iterable and Iterator
+
+## About This Project
+This project demonstrates creating custom iterable and iterator classes in Python using `__iter__` and `__next__` methods.
+
+## Features
+- Custom iterable classes
+- Custom iterator classes
+- Infinite iterators
+- Lazy evaluation
+- Data streaming
+- Pagination simulation
+- Tree traversal
+- Custom zip iterator
+- Utility functions
+
+## Iterable Examples
+
+### CountDown
+``python
+for i in CountDown(5):
+    print(i)  # 5, 4, 3, 2, 1, 0
+
