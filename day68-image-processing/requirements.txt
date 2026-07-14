@@ -1,0 +1,3 @@
+﻿# Day 68 - Image Processing
+# For image processing: pip install Pillow
+Pillow==10.1.0
