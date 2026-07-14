@@ -1,0 +1,3 @@
+﻿# Day 65 - Socket Communication
+# Uses only built-in modules: socket, threading, datetime
+# No external dependencies needed

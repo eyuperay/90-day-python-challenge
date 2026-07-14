@@ -1,0 +1,7 @@
+[2026-07-14 09:38:17] Server started on localhost:5000
+[2026-07-14 09:42:45] New client connected: ('127.0.0.1', 60667)
+[2026-07-14 09:43:08] Received from 127.0.0.1:60667: [2026-07-14 09:38:25] New client connected: ('127.0.0.1', 54321)
+[2026-07-14 09:43:57] Received from 127.0.0.1:60667: help
+[2026-07-14 09:44:05] Received from 127.0.0.1:60667: time
+[2026-07-14 09:50:35] Socket error with 127.0.0.1:60667: [WinError 10054] Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı
+[2026-07-14 09:50:35] Client disconnected: ('127.0.0.1', 60667)
