@@ -4403,3 +4403,36 @@ Bu proje, bir Python Flask uygulaması için Dockerfile oluşturmayı gösterir.
 ### 1. İmajı Build Et
 ``bash
 docker build -t my-flask-app .
+
+# Day 87 - Docker Compose ile Çoklu Servis
+
+## Proje Hakkında
+Bu proje, Docker Compose ile çoklu servis uygulaması oluşturmayı gösterir. Flask, PostgreSQL ve Redis servislerini içerir.
+
+## Servisler
+
+### Flask App
+- Web uygulaması
+- Port: 5000
+- Veritabanı ve cache ile iletişim kurar
+
+### PostgreSQL
+- Ana veritabanı
+- Port: 5432
+- Kullanıcı: postgres / Şifre: postgres
+- Veritabanı: appdb
+
+### Redis
+- Cache ve counter
+- Port: 6379
+
+### pgAdmin (Opsiyonel)
+- PostgreSQL yönetim arayüzü
+- Port: 5050
+- Email: admin@example.com / Şifre: admin
+
+## Docker Compose Komutları
+
+### 1. Servisleri Başlat
+``bash
+docker-compose up -d
