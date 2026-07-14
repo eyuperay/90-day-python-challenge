@@ -1,0 +1,37 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<h1>Users</h1>
+<p>Total: {{ users|length }} users</p>
+
+<div class="card">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td><a href="/user/{{ user.id }}">{{ user.name }}</a></td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.age or '-' }}</td>
+                <td>{{ user.city or '-' }}</td>
+                <td class="actions">
+                    <a href="/user/{{ user.id }}" class="btn-small">View</a>
+                    <a href="/user/edit/{{ user.id }}" class="btn-small btn-edit">Edit</a>
+                    <a href="/user/delete/{{ user.id }}" class="btn-small btn-delete">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

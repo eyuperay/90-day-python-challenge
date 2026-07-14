@@ -1,0 +1,35 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<h1>User Detail</h1>
+
+<div class="card">
+    <p><strong>ID:</strong> {{ user.id }}</p>
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Age:</strong> {{ user.age or '-' }}</p>
+    <p><strong>City:</strong> {{ user.city or '-' }}</p>
+    <p><strong>Created:</strong> {{ user.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+    <p><strong>Updated:</strong> {{ user.updated_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+    
+    <div class="actions">
+        <a href="/user/edit/{{ user.id }}" class="btn">Edit</a>
+        <a href="/user/delete/{{ user.id }}" class="btn btn-danger">Delete</a>
+        <a href="/users" class="btn btn-secondary">Back</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Posts by {{ user.name }}</h2>
+    {% if posts %}
+        {% for post in posts %}
+        <div class="post-item">
+            <h3><a href="/post/{{ post.id }}">{{ post.title }}</a></h3>
+            <p class="post-meta">{{ post.created_at.strftime('%Y-%m-%d %H:%M') }}</p>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No posts by this user.</p>
+    {% endif %}
+</div>
+{% endblock %}

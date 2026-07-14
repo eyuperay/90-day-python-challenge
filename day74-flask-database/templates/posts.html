@@ -1,0 +1,18 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<h1>All Posts</h1>
+<p>Total: {{ posts|length }} posts</p>
+
+<div class="card">
+    {% for post in posts %}
+    <div class="post-item">
+        <h3><a href="/post/{{ post.id }}">{{ post.title }}</a></h3>
+        <p class="post-meta">By <a href="/user/{{ post.author.id }}">{{ post.author.name }}</a> at {{ post.created_at.strftime('%Y-%m-%d %H:%M') }}</p>
+        <p>{{ post.content[:300] }}{% if post.content|length > 300 %}...{% endif %}</p>
+    </div>
+    {% else %}
+    <p>No posts yet.</p>
+    {% endfor %}
+</div>
+{% endblock %}

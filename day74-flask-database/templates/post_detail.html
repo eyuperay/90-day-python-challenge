@@ -1,0 +1,16 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<h1>Post Detail</h1>
+
+<div class="card">
+    <h2>{{ post.title }}</h2>
+    <p class="post-meta">By <a href="/user/{{ post.author.id }}">{{ post.author.name }}</a> at {{ post.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+    <hr>
+    <p>{{ post.content }}</p>
+</div>
+
+<div class="actions">
+    <a href="/posts" class="btn btn-secondary">Back to Posts</a>
+</div>
+{% endblock %}
