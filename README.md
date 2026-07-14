@@ -4436,3 +4436,31 @@ Bu proje, Docker Compose ile çoklu servis uygulaması oluşturmayı gösterir. 
 ### 1. Servisleri Başlat
 ``bash
 docker-compose up -d
+
+# Day 88 - Git ile Branch Yönetimi
+
+## Proje Hakkında
+Bu proje, Git branch yönetimini öğrenmek için oluşturulmuş bir örnek projedir. Feature branch'ler, merge, rebase ve conflict çözümü gösterilir.
+
+## Git Branch Komutları
+
+### Branch Oluşturma ve Yönetimi
+
+``bash
+# Mevcut branch'i gör
+git branch
+
+# Yeni branch oluştur
+git branch feature-auth
+
+# Branch'e geç
+git checkout feature-auth
+
+# Branch oluştur ve geç
+git checkout -b feature-auth
+
+# Branch sil
+git branch -d feature-auth
+
+# Tüm branch'leri listele
+git branch -a
