@@ -4085,9 +4085,24 @@ This project demonstrates generators for efficient data streaming and processing
 ## Generator Types
 
 ### Basic Generators
-```python
+``python
 def number_generator(start, end, step):
     current = start
     while current < end:
         yield current
         current += step
+
+# MyPackage - Sample Python Package
+
+## About This Package
+This is a sample Python package created for demonstration purposes. It provides various utility functions for mathematical operations, string manipulations, and data processing.
+
+## Installation
+
+### Local Installation
+```bash
+# Install in development mode
+pip install -e .
+
+# Build and install from source
+python setup.py install       
