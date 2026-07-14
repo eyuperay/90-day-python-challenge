@@ -3644,3 +3644,64 @@ python main.py
 - WiFi QR format
 - Batch processing
 - JSON data encoding
+
+# Day 70 - Password Manager (CLI)
+
+## About This Project
+This project demonstrates a secure password manager with encryption using cryptography library.
+
+## Features
+- Master password protection
+- Password encryption (Fernet)
+- Password generation
+- Password strength validation
+- Add/update/delete passwords
+- Search passwords
+- Password statistics
+- Secure storage
+
+## Security Features
+- Fernet symmetric encryption
+- SHA-256 hashing with salt
+- Master password verification
+- Encrypted storage
+- Secure password generation
+
+## Commands
+
+### Master Password
+- First run: Create master password
+- Subsequent runs: Enter master password to access
+
+### Menu Options
+1. Show All Passwords
+2. Add Password
+3. Update Password
+4. Delete Password
+5. Search Passwords
+6. Show Statistics
+7. Generate Password
+8. Exit
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the program
+python main.py
+
+### 3. Create master password (first run)
+
+### 4. Manage passwords
+
+## Files
+- data/key.key - Encryption key
+- data/passwords.json - Encrypted password storage
+
+## Learning Objectives
+- Password encryption
+- Password hashing
+- Secure storage
+- CLI application
+- Password management
