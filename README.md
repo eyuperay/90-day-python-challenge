@@ -4179,3 +4179,53 @@ This project demonstrates creating custom iterable and iterator classes in Pytho
 for i in CountDown(5):
     print(i)  # 5, 4, 3, 2, 1, 0
 
+# Day 81 - Logistic Regression
+
+## About This Project
+This project demonstrates logistic regression for classification using scikit-learn.
+
+## Features
+- Breast Cancer dataset
+- Synthetic datasets
+- Binary and multiclass classification
+- Data scaling
+- Train/test split
+- Cross-validation
+- Model evaluation
+- Confusion matrix
+- ROC curve
+- Feature importance
+- Results visualization
+
+## Datasets
+
+### Breast Cancer Dataset
+- 569 samples, 30 features
+- Binary classification (Malignant/Benign)
+- Real medical data
+
+### Synthetic Datasets
+- Binary classification (2 classes)
+- Multiclass classification (3 classes)
+- Custom sample size and features
+
+## Model Parameters
+- C: Regularization strength (0.01 - 100)
+- Solver: 'lbfgs', 'liblinear', 'saga'
+- Penalty: 'l2', 'l1'
+- max_iter: Maximum iterations
+
+## Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC AUC
+- Confusion Matrix
+- Classification Report
+
+## Usage
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
