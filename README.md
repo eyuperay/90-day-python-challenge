@@ -4045,3 +4045,26 @@ python main.py
 - Parallel processing
 - Performance optimization
 
+# Day 77 - Decorator Performance
+
+## About This Project
+This project demonstrates performance monitoring using Python decorators.
+
+## Features
+- `@time_it` - Measure function execution time
+- `@log_arguments` - Log function arguments and return values
+- `@retry_on_error` - Retry on error with configurable attempts
+- `@cache_result` - Cache function results
+- `@profile` - Comprehensive profiling (time + memory)
+- `@limit_calls` - Limit number of function calls
+
+## Decorators
+
+### @time_it
+Measures and logs function execution time.
+
+``python
+@time_it
+def my_function():
+    time.sleep(1)
+
