@@ -1,0 +1,3 @@
+﻿# Day 80 - Iterable and Iterator
+# Uses only built-in modules
+# No external dependencies needed
