@@ -3418,3 +3418,61 @@ python chat_client.py 192.168.1.100 5001
 - Message handling
 - Connection management
 - Real-time communication
+
+# Day 66 - Email Sending
+
+## About This Project
+This project demonstrates sending emails using Python's `smtplib` and `email` modules.
+
+## Features
+- Send plain text emails
+- Send HTML emails
+- Send emails with attachments
+- Send to multiple recipients
+- Email templates (welcome, report, test)
+- SMTP configuration
+- Email logging
+
+## Email Types
+1. Test Email - Simple test message
+2. Welcome Email - HTML welcome template
+3. Report Email - Daily report with table
+4. Custom Email - User-defined content
+5. Batch Email - Send to multiple recipients
+6. HTML Email - Styled email with HTML
+
+## Gmail Setup (App Password)
+1. Go to Google Account -> Security
+2. Enable 2-Step Verification
+3. Generate App Password
+4. Use App Password instead of regular password
+
+## Usage
+
+### 1. Run the program
+python main.py
+
+### 2. Enter credentials
+- SMTP Server: smtp.gmail.com
+- SMTP Port: 587
+- Email: your_email@gmail.com
+- Password: your_app_password
+
+### 3. Select email type
+- 1: Test Email
+- 2: Welcome Email
+- 3: Report Email
+- 4: Custom Email
+- 5: Multiple Recipients
+- 6: HTML Email
+- 7: Exit
+
+## Learning Objectives
+- SMTP protocol
+- smtplib module
+- MIMEText and MIMEMultipart
+- HTML email formatting
+- Email attachments
+- Email logging
+- Email templates
+- Secure email sending
