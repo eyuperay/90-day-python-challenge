@@ -3930,3 +3930,77 @@ http://127.0.0.1:5000
 - API development
 - Template inheritance
 - Flash messages
+
+# Day 75 - FastAPI Advanced
+
+## About This Project
+This project demonstrates advanced API development with FastAPI including CRUD operations, relationships, and Swagger documentation.
+
+## Features
+- FastAPI framework
+- SQLAlchemy ORM
+- Pydantic schemas
+- CRUD operations (Create, Read, Update, Delete)
+- Relationships (Customer -> Orders -> Items)
+- Auto-generated Swagger/OpenAPI docs
+- CORS support
+- Query parameters
+- Search functionality
+- Statistics endpoint
+
+## Models
+
+### Product
+- id, name, description, price, stock, category, is_active
+
+### Customer
+- id, name, email, phone, address, city
+
+### Order
+- id, customer_id, order_date, status, total_amount, shipping_address
+
+### OrderItem
+- id, order_id, product_id, quantity, unit_price
+
+## API Endpoints
+
+### Products
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/products` | Create product |
+| GET | `/products` | List products |
+| GET | `/products/{id}` | Get product |
+| PUT | `/products/{id}` | Update product |
+| DELETE | `/products/{id}` | Delete product |
+
+### Customers
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/customers` | Create customer |
+| GET | `/customers` | List customers |
+| GET | `/customers/{id}` | Get customer |
+| PUT | `/customers/{id}` | Update customer |
+| DELETE | `/customers/{id}` | Delete customer |
+
+### Orders
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/orders` | Create order |
+| GET | `/orders` | List orders |
+| GET | `/orders/{id}` | Get order |
+| PUT | `/orders/{id}` | Update order |
+| DELETE | `/orders/{id}` | Delete order |
+
+### Additional
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/search` | Search products |
+| GET | `/stats` | Get statistics |
+
+## Installation
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
+
+
