@@ -4371,3 +4371,35 @@ This project demonstrates sentiment analysis using TextBlob and NLTK.
 ### 1. Install dependencies
 ``bash
 pip install -r requirements.txt
+
+# Day 86 - Dockerfile Oluşturma
+
+## Proje Hakkında
+Bu proje, bir Python Flask uygulaması için Dockerfile oluşturmayı gösterir. Multi-stage build, non-root user, health check ve optimizasyon tekniklerini içerir.
+
+## Dockerfile Özellikleri
+
+### Multi-stage Build
+- Builder stage: Bağımlılıkları yükler
+- Final stage: Uygulamayı çalıştırır
+- Daha küçük imaj boyutu
+
+### Güvenlik
+- Non-root user (appuser) oluşturur
+- Root yetkileriyle çalışmaz
+
+### Performans
+- Python 3.11-slim (küçük boyut)
+- pip cache temizlenir
+- Layer caching için requirements.txt önce kopyalanır
+
+### Health Check
+- /api/health endpoint'i kontrol edilir
+- 30 saniye aralıkla
+- 5 saniye başlangıç bekleme süresi
+
+## Docker Komutları
+
+### 1. İmajı Build Et
+``bash
+docker build -t my-flask-app .
