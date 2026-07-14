@@ -1,0 +1,3 @@
+﻿# Day 69 - QR Code Generator
+# For QR code generation: pip install qrcode[pil]
+qrcode[pil]==7.4.2
