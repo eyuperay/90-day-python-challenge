@@ -4003,4 +4003,45 @@ This project demonstrates advanced API development with FastAPI including CRUD o
 ``bash
 pip install -r requirements.txt
 
+# Day 76 - Async Programming
+
+## About This Project
+This project demonstrates asynchronous programming in Python using asyncio and aiohttp.
+
+## Features
+- Sync vs Async comparison
+- Async HTTP requests
+- Parallel processing
+- Stream pipeline
+- Batch processing
+- Performance metrics
+
+## Key Concepts
+
+### Async/Await
+- `async def` - Define async function
+- `await` - Wait for async result
+- `asyncio.run()` - Run async code
+- `asyncio.gather()` - Run multiple tasks
+
+### aiohttp
+- Async HTTP client
+- Session management
+- Concurrent requests
+- Error handling
+
+## Usage
+
+### 1. Install dependencies
+pip install aiohttp
+
+### 2. Run the program
+python main.py
+
+## Learning Objectives
+- Understanding async/await
+- Using asyncio
+- Making async HTTP requests
+- Parallel processing
+- Performance optimization
 
