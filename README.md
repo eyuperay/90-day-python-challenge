@@ -4229,3 +4229,36 @@ This project demonstrates logistic regression for classification using scikit-le
 ### 1. Install dependencies
 ``bash
 pip install -r requirements.txt
+
+# Day 82 - Decision Tree Visualization
+
+## About This Project
+This project demonstrates decision tree classification with visualization using scikit-learn.
+
+## Features
+- Decision tree classification
+- Tree visualization (matplotlib)
+- Graphviz tree export
+- Feature importance
+- Confusion matrix
+- Depth comparison
+- Cross-validation
+- Multiple datasets
+
+## Datasets
+- Iris dataset (3 classes)
+- Wine dataset (3 classes)
+- Synthetic dataset (3 classes)
+
+## Visualizations
+- Decision tree plot
+- Graphviz tree
+- Feature importance
+- Confusion matrix
+- Depth comparison
+
+## Usage
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
