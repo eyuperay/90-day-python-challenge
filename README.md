@@ -4262,3 +4262,35 @@ This project demonstrates decision tree classification with visualization using 
 ### 1. Install dependencies
 ``bash
 pip install -r requirements.txt
+
+# Day 83 - Neural Network
+
+## About This Project
+This project demonstrates building and training neural networks using TensorFlow/Keras.
+
+## Features
+- Neural network with multiple layers
+- Dropout for regularization
+- Early stopping
+- Training history visualization
+- Confusion matrix
+- Architecture comparison
+- Multiple datasets
+
+## Datasets
+- Digits dataset (10 classes)
+- Synthetic binary dataset (2 classes)
+- Synthetic multiclass dataset (3 classes)
+
+## Model Architecture
+- Input layer (features)
+- Hidden layers (configurable)
+- Dropout layers (regularization)
+- Output layer (softmax/sigmoid)
+
+## Usage
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
+
