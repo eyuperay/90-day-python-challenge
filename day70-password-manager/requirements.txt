@@ -1,0 +1,3 @@
+﻿# Day 70 - Password Manager
+# For encryption: pip install cryptography
+cryptography==41.0.7
