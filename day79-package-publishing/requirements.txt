@@ -1,0 +1,3 @@
+﻿# Day 79 - Package Publishing
+# Uses only built-in modules
+# setuptools is used for packaging
