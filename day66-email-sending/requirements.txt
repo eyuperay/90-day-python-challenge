@@ -1,0 +1,3 @@
+﻿# Day 66 - Email Sending
+# Uses built-in modules: smtplib, email, datetime, os
+# No external dependencies needed
