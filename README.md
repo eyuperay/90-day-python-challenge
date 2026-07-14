@@ -4068,3 +4068,26 @@ Measures and logs function execution time.
 def my_function():
     time.sleep(1)
 
+# Day 78 - Generator Data Flow
+
+## About This Project
+This project demonstrates generators for efficient data streaming and processing.
+
+## Features
+- Basic generators
+- Data stream generators
+- File stream generators
+- Processing pipeline generators
+- Infinite generators
+- Batch processing
+- Progress tracking
+
+## Generator Types
+
+### Basic Generators
+```python
+def number_generator(start, end, step):
+    current = start
+    while current < end:
+        yield current
+        current += step
