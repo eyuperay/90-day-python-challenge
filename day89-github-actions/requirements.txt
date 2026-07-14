@@ -1,0 +1,5 @@
+﻿# Day 89 - GitHub Actions CI/CD
+flask==2.3.3
+pytest==7.4.3
+pytest-cov==4.1.0
+flake8==6.1.0
