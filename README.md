@@ -3476,3 +3476,47 @@ python main.py
 - Email logging
 - Email templates
 - Secure email sending
+
+# Day 67 - PDF Report
+
+## About This Project
+This project demonstrates PDF report generation using Python's reportlab library.
+
+## Features
+- Create PDF reports
+- Add titles and headings
+- Add paragraphs and text
+- Add tables with styling
+- Add bar charts
+- Add pie charts
+- Custom styling and formatting
+- Multiple report types
+
+## Report Types
+1. Sales Report - Product sales summary with charts
+2. Employee Report - Employee details and statistics
+3. Invoice Report - Invoice summary with status
+4. Inventory Report - Product inventory status
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the program
+python main.py
+
+### 3. Check outputs
+- output/sales_report.pdf
+- output/employee_report.pdf
+- output/invoice_report.pdf
+- output/inventory_report.pdf
+
+## Learning Objectives
+- PDF generation with reportlab
+- Adding text and formatting
+- Creating tables
+- Adding charts (bar, pie)
+- Report styling
+- Multiple report templates
+- Data visualization in PDFs
