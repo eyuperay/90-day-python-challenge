@@ -1,0 +1,409 @@
+{
+  "summary": {
+    "total_sentences": 9,
+    "sentiment_counts": {
+      "positive": 3,
+      "neutral": 3,
+      "negative": 3
+    },
+    "avg_polarity": 0.025000000000000005,
+    "avg_subjectivity": 0.6062301587301587,
+    "positive_words_count": 38,
+    "negative_words_count": 28,
+    "neutral_words_count": 29,
+    "positive_percentage": 33.33333333333333,
+    "negative_percentage": 33.33333333333333,
+    "neutral_percentage": 33.33333333333333
+  },
+  "results": [
+    {
+      "sentence": "I absolutely loved this product! It was amazing and worked perfectly",
+      "polarity": 0.8250000000000001,
+      "subjectivity": 0.9,
+      "sentiment": "positive",
+      "words": [
+        "i",
+        "absolutely",
+        "loved",
+        "this",
+        "product!",
+        "it",
+        "was",
+        "amazing",
+        "and",
+        "worked",
+        "perfectly"
+      ],
+      "word_count": 11
+    },
+    {
+      "sentence": "The quality was outstanding and the price was very reasonable",
+      "polarity": 0.38,
+      "subjectivity": 0.8275,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "quality",
+        "was",
+        "outstanding",
+        "and",
+        "the",
+        "price",
+        "was",
+        "very",
+        "reasonable"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "I would definitely recommend it to everyone",
+      "polarity": 0.0,
+      "subjectivity": 0.5,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "definitely",
+        "recommend",
+        "it",
+        "to",
+        "everyone"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "However, the customer service was terrible",
+      "polarity": -1.0,
+      "subjectivity": 1.0,
+      "sentiment": "negative",
+      "words": [
+        "however,",
+        "the",
+        "customer",
+        "service",
+        "was",
+        "terrible"
+      ],
+      "word_count": 6
+    },
+    {
+      "sentence": "They took forever to respond \n        and were very rude",
+      "polarity": -0.39,
+      "subjectivity": 0.78,
+      "sentiment": "negative",
+      "words": [
+        "they",
+        "took",
+        "forever",
+        "to",
+        "respond",
+        "and",
+        "were",
+        "very",
+        "rude"
+      ],
+      "word_count": 9
+    },
+    {
+      "sentence": "I had to call multiple times just to get a simple answer",
+      "polarity": 0.0,
+      "subjectivity": 0.17857142857142858,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "had",
+        "to",
+        "call",
+        "multiple",
+        "times",
+        "just",
+        "to",
+        "get",
+        "a",
+        "simple",
+        "answer"
+      ],
+      "word_count": 12
+    },
+    {
+      "sentence": "The shipping was also very slow, it took over a week to arrive",
+      "polarity": -0.39000000000000007,
+      "subjectivity": 0.52,
+      "sentiment": "negative",
+      "words": [
+        "the",
+        "shipping",
+        "was",
+        "also",
+        "very",
+        "slow,",
+        "it",
+        "took",
+        "over",
+        "a",
+        "week",
+        "to",
+        "arrive"
+      ],
+      "word_count": 13
+    },
+    {
+      "sentence": "Overall, I would give it 3 stars out of 5",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "overall,",
+        "i",
+        "would",
+        "give",
+        "it",
+        "3",
+        "stars",
+        "out",
+        "of",
+        "5"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "The product itself is great, \n        but the company needs to improve their customer service and shipping speed",
+      "polarity": 0.8,
+      "subjectivity": 0.75,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "product",
+        "itself",
+        "is",
+        "great,",
+        "but",
+        "the",
+        "company",
+        "needs",
+        "to",
+        "improve",
+        "their",
+        "customer",
+        "service",
+        "and",
+        "shipping",
+        "speed"
+      ],
+      "word_count": 17
+    }
+  ],
+  "positive_sentences": [
+    "I absolutely loved this product! It was amazing and worked perfectly",
+    "The quality was outstanding and the price was very reasonable",
+    "The product itself is great, \n        but the company needs to improve their customer service and shipping speed"
+  ],
+  "negative_sentences": [
+    "However, the customer service was terrible",
+    "They took forever to respond \n        and were very rude",
+    "The shipping was also very slow, it took over a week to arrive"
+  ],
+  "neutral_sentences": [
+    "I would definitely recommend it to everyone",
+    "I had to call multiple times just to get a simple answer",
+    "Overall, I would give it 3 stars out of 5"
+  ],
+  "most_positive": [
+    {
+      "sentence": "I absolutely loved this product! It was amazing and worked perfectly",
+      "polarity": 0.8250000000000001,
+      "subjectivity": 0.9,
+      "sentiment": "positive",
+      "words": [
+        "i",
+        "absolutely",
+        "loved",
+        "this",
+        "product!",
+        "it",
+        "was",
+        "amazing",
+        "and",
+        "worked",
+        "perfectly"
+      ],
+      "word_count": 11
+    },
+    {
+      "sentence": "The product itself is great, \n        but the company needs to improve their customer service and shipping speed",
+      "polarity": 0.8,
+      "subjectivity": 0.75,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "product",
+        "itself",
+        "is",
+        "great,",
+        "but",
+        "the",
+        "company",
+        "needs",
+        "to",
+        "improve",
+        "their",
+        "customer",
+        "service",
+        "and",
+        "shipping",
+        "speed"
+      ],
+      "word_count": 17
+    },
+    {
+      "sentence": "The quality was outstanding and the price was very reasonable",
+      "polarity": 0.38,
+      "subjectivity": 0.8275,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "quality",
+        "was",
+        "outstanding",
+        "and",
+        "the",
+        "price",
+        "was",
+        "very",
+        "reasonable"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "I would definitely recommend it to everyone",
+      "polarity": 0.0,
+      "subjectivity": 0.5,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "definitely",
+        "recommend",
+        "it",
+        "to",
+        "everyone"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "I had to call multiple times just to get a simple answer",
+      "polarity": 0.0,
+      "subjectivity": 0.17857142857142858,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "had",
+        "to",
+        "call",
+        "multiple",
+        "times",
+        "just",
+        "to",
+        "get",
+        "a",
+        "simple",
+        "answer"
+      ],
+      "word_count": 12
+    }
+  ],
+  "most_negative": [
+    {
+      "sentence": "However, the customer service was terrible",
+      "polarity": -1.0,
+      "subjectivity": 1.0,
+      "sentiment": "negative",
+      "words": [
+        "however,",
+        "the",
+        "customer",
+        "service",
+        "was",
+        "terrible"
+      ],
+      "word_count": 6
+    },
+    {
+      "sentence": "The shipping was also very slow, it took over a week to arrive",
+      "polarity": -0.39000000000000007,
+      "subjectivity": 0.52,
+      "sentiment": "negative",
+      "words": [
+        "the",
+        "shipping",
+        "was",
+        "also",
+        "very",
+        "slow,",
+        "it",
+        "took",
+        "over",
+        "a",
+        "week",
+        "to",
+        "arrive"
+      ],
+      "word_count": 13
+    },
+    {
+      "sentence": "They took forever to respond \n        and were very rude",
+      "polarity": -0.39,
+      "subjectivity": 0.78,
+      "sentiment": "negative",
+      "words": [
+        "they",
+        "took",
+        "forever",
+        "to",
+        "respond",
+        "and",
+        "were",
+        "very",
+        "rude"
+      ],
+      "word_count": 9
+    },
+    {
+      "sentence": "I would definitely recommend it to everyone",
+      "polarity": 0.0,
+      "subjectivity": 0.5,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "definitely",
+        "recommend",
+        "it",
+        "to",
+        "everyone"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "I had to call multiple times just to get a simple answer",
+      "polarity": 0.0,
+      "subjectivity": 0.17857142857142858,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "had",
+        "to",
+        "call",
+        "multiple",
+        "times",
+        "just",
+        "to",
+        "get",
+        "a",
+        "simple",
+        "answer"
+      ],
+      "word_count": 12
+    }
+  ]
+}

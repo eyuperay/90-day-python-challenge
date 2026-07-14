@@ -1,0 +1,344 @@
+{
+  "summary": {
+    "total_sentences": 8,
+    "sentiment_counts": {
+      "positive": 4,
+      "negative": 2,
+      "neutral": 2
+    },
+    "avg_polarity": 0.04848146645021645,
+    "avg_subjectivity": 0.5842938311688312,
+    "positive_words_count": 36,
+    "negative_words_count": 13,
+    "neutral_words_count": 13,
+    "positive_percentage": 50.0,
+    "negative_percentage": 25.0,
+    "neutral_percentage": 25.0
+  },
+  "results": [
+    {
+      "sentence": "I love this new update! It's amazing and so fast",
+      "polarity": 0.36761363636363636,
+      "subjectivity": 0.6386363636363637,
+      "sentiment": "positive",
+      "words": [
+        "i",
+        "love",
+        "this",
+        "new",
+        "update!",
+        "it's",
+        "amazing",
+        "and",
+        "so",
+        "fast"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "Best app ever!\n        This is terrible, the worst experience ever",
+      "polarity": -0.3333333333333333,
+      "subjectivity": 0.7666666666666666,
+      "sentiment": "negative",
+      "words": [
+        "best",
+        "app",
+        "ever!",
+        "this",
+        "is",
+        "terrible,",
+        "the",
+        "worst",
+        "experience",
+        "ever"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "I hate it",
+      "polarity": -0.8,
+      "subjectivity": 0.9,
+      "sentiment": "negative",
+      "words": [
+        "i",
+        "hate",
+        "it"
+      ],
+      "word_count": 3
+    },
+    {
+      "sentence": "The weather today is nice",
+      "polarity": 0.6,
+      "subjectivity": 1.0,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "weather",
+        "today",
+        "is",
+        "nice"
+      ],
+      "word_count": 5
+    },
+    {
+      "sentence": "I think I will go for a walk",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "think",
+        "i",
+        "will",
+        "go",
+        "for",
+        "a",
+        "walk"
+      ],
+      "word_count": 8
+    },
+    {
+      "sentence": "Can't believe how good this is! Absolutely fantastic!\n        Worst customer service ever",
+      "polarity": 0.125,
+      "subjectivity": 0.8333333333333334,
+      "sentiment": "positive",
+      "words": [
+        "can't",
+        "believe",
+        "how",
+        "good",
+        "this",
+        "is!",
+        "absolutely",
+        "fantastic!",
+        "worst",
+        "customer",
+        "service",
+        "ever"
+      ],
+      "word_count": 12
+    },
+    {
+      "sentence": "Never buying from them again",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "never",
+        "buying",
+        "from",
+        "them",
+        "again"
+      ],
+      "word_count": 5
+    },
+    {
+      "sentence": "The product is okay, nothing special but it works",
+      "polarity": 0.4285714285714286,
+      "subjectivity": 0.5357142857142857,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "product",
+        "is",
+        "okay,",
+        "nothing",
+        "special",
+        "but",
+        "it",
+        "works"
+      ],
+      "word_count": 9
+    }
+  ],
+  "positive_sentences": [
+    "I love this new update! It's amazing and so fast",
+    "The weather today is nice",
+    "Can't believe how good this is! Absolutely fantastic!\n        Worst customer service ever",
+    "The product is okay, nothing special but it works"
+  ],
+  "negative_sentences": [
+    "Best app ever!\n        This is terrible, the worst experience ever",
+    "I hate it"
+  ],
+  "neutral_sentences": [
+    "I think I will go for a walk",
+    "Never buying from them again"
+  ],
+  "most_positive": [
+    {
+      "sentence": "The weather today is nice",
+      "polarity": 0.6,
+      "subjectivity": 1.0,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "weather",
+        "today",
+        "is",
+        "nice"
+      ],
+      "word_count": 5
+    },
+    {
+      "sentence": "The product is okay, nothing special but it works",
+      "polarity": 0.4285714285714286,
+      "subjectivity": 0.5357142857142857,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "product",
+        "is",
+        "okay,",
+        "nothing",
+        "special",
+        "but",
+        "it",
+        "works"
+      ],
+      "word_count": 9
+    },
+    {
+      "sentence": "I love this new update! It's amazing and so fast",
+      "polarity": 0.36761363636363636,
+      "subjectivity": 0.6386363636363637,
+      "sentiment": "positive",
+      "words": [
+        "i",
+        "love",
+        "this",
+        "new",
+        "update!",
+        "it's",
+        "amazing",
+        "and",
+        "so",
+        "fast"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "Can't believe how good this is! Absolutely fantastic!\n        Worst customer service ever",
+      "polarity": 0.125,
+      "subjectivity": 0.8333333333333334,
+      "sentiment": "positive",
+      "words": [
+        "can't",
+        "believe",
+        "how",
+        "good",
+        "this",
+        "is!",
+        "absolutely",
+        "fantastic!",
+        "worst",
+        "customer",
+        "service",
+        "ever"
+      ],
+      "word_count": 12
+    },
+    {
+      "sentence": "I think I will go for a walk",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "think",
+        "i",
+        "will",
+        "go",
+        "for",
+        "a",
+        "walk"
+      ],
+      "word_count": 8
+    }
+  ],
+  "most_negative": [
+    {
+      "sentence": "I hate it",
+      "polarity": -0.8,
+      "subjectivity": 0.9,
+      "sentiment": "negative",
+      "words": [
+        "i",
+        "hate",
+        "it"
+      ],
+      "word_count": 3
+    },
+    {
+      "sentence": "Best app ever!\n        This is terrible, the worst experience ever",
+      "polarity": -0.3333333333333333,
+      "subjectivity": 0.7666666666666666,
+      "sentiment": "negative",
+      "words": [
+        "best",
+        "app",
+        "ever!",
+        "this",
+        "is",
+        "terrible,",
+        "the",
+        "worst",
+        "experience",
+        "ever"
+      ],
+      "word_count": 10
+    },
+    {
+      "sentence": "I think I will go for a walk",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "think",
+        "i",
+        "will",
+        "go",
+        "for",
+        "a",
+        "walk"
+      ],
+      "word_count": 8
+    },
+    {
+      "sentence": "Never buying from them again",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "never",
+        "buying",
+        "from",
+        "them",
+        "again"
+      ],
+      "word_count": 5
+    },
+    {
+      "sentence": "Can't believe how good this is! Absolutely fantastic!\n        Worst customer service ever",
+      "polarity": 0.125,
+      "subjectivity": 0.8333333333333334,
+      "sentiment": "positive",
+      "words": [
+        "can't",
+        "believe",
+        "how",
+        "good",
+        "this",
+        "is!",
+        "absolutely",
+        "fantastic!",
+        "worst",
+        "customer",
+        "service",
+        "ever"
+      ],
+      "word_count": 12
+    }
+  ]
+}

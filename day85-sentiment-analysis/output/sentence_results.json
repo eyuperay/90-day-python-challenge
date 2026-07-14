@@ -1,0 +1,293 @@
+{
+  "summary": {
+    "total_sentences": 5,
+    "sentiment_counts": {
+      "positive": 3,
+      "negative": 1,
+      "neutral": 1
+    },
+    "avg_polarity": 0.21266666666666664,
+    "avg_subjectivity": 0.602,
+    "positive_words_count": 21,
+    "negative_words_count": 11,
+    "neutral_words_count": 9,
+    "positive_percentage": 60.0,
+    "negative_percentage": 20.0,
+    "neutral_percentage": 20.0
+  },
+  "results": [
+    {
+      "sentence": "The hotel room was clean and comfortable",
+      "polarity": 0.38333333333333336,
+      "subjectivity": 0.75,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "hotel",
+        "room",
+        "was",
+        "clean",
+        "and",
+        "comfortable"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "The staff were friendly and helpful",
+      "polarity": 0.375,
+      "subjectivity": 0.5,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "staff",
+        "were",
+        "friendly",
+        "and",
+        "helpful"
+      ],
+      "word_count": 6
+    },
+    {
+      "sentence": "However, the breakfast was terrible and the WiFi was very slow",
+      "polarity": -0.6950000000000001,
+      "subjectivity": 0.76,
+      "sentiment": "negative",
+      "words": [
+        "however,",
+        "the",
+        "breakfast",
+        "was",
+        "terrible",
+        "and",
+        "the",
+        "wifi",
+        "was",
+        "very",
+        "slow"
+      ],
+      "word_count": 11
+    },
+    {
+      "sentence": "The location was perfect, close to all attractions",
+      "polarity": 1.0,
+      "subjectivity": 1.0,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "location",
+        "was",
+        "perfect,",
+        "close",
+        "to",
+        "all",
+        "attractions"
+      ],
+      "word_count": 8
+    },
+    {
+      "sentence": "I would stay here again despite the breakfast issues",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "stay",
+        "here",
+        "again",
+        "despite",
+        "the",
+        "breakfast",
+        "issues"
+      ],
+      "word_count": 9
+    }
+  ],
+  "positive_sentences": [
+    "The hotel room was clean and comfortable",
+    "The staff were friendly and helpful",
+    "The location was perfect, close to all attractions"
+  ],
+  "negative_sentences": [
+    "However, the breakfast was terrible and the WiFi was very slow"
+  ],
+  "neutral_sentences": [
+    "I would stay here again despite the breakfast issues"
+  ],
+  "most_positive": [
+    {
+      "sentence": "The location was perfect, close to all attractions",
+      "polarity": 1.0,
+      "subjectivity": 1.0,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "location",
+        "was",
+        "perfect,",
+        "close",
+        "to",
+        "all",
+        "attractions"
+      ],
+      "word_count": 8
+    },
+    {
+      "sentence": "The hotel room was clean and comfortable",
+      "polarity": 0.38333333333333336,
+      "subjectivity": 0.75,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "hotel",
+        "room",
+        "was",
+        "clean",
+        "and",
+        "comfortable"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "The staff were friendly and helpful",
+      "polarity": 0.375,
+      "subjectivity": 0.5,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "staff",
+        "were",
+        "friendly",
+        "and",
+        "helpful"
+      ],
+      "word_count": 6
+    },
+    {
+      "sentence": "I would stay here again despite the breakfast issues",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "stay",
+        "here",
+        "again",
+        "despite",
+        "the",
+        "breakfast",
+        "issues"
+      ],
+      "word_count": 9
+    },
+    {
+      "sentence": "However, the breakfast was terrible and the WiFi was very slow",
+      "polarity": -0.6950000000000001,
+      "subjectivity": 0.76,
+      "sentiment": "negative",
+      "words": [
+        "however,",
+        "the",
+        "breakfast",
+        "was",
+        "terrible",
+        "and",
+        "the",
+        "wifi",
+        "was",
+        "very",
+        "slow"
+      ],
+      "word_count": 11
+    }
+  ],
+  "most_negative": [
+    {
+      "sentence": "However, the breakfast was terrible and the WiFi was very slow",
+      "polarity": -0.6950000000000001,
+      "subjectivity": 0.76,
+      "sentiment": "negative",
+      "words": [
+        "however,",
+        "the",
+        "breakfast",
+        "was",
+        "terrible",
+        "and",
+        "the",
+        "wifi",
+        "was",
+        "very",
+        "slow"
+      ],
+      "word_count": 11
+    },
+    {
+      "sentence": "I would stay here again despite the breakfast issues",
+      "polarity": 0.0,
+      "subjectivity": 0.0,
+      "sentiment": "neutral",
+      "words": [
+        "i",
+        "would",
+        "stay",
+        "here",
+        "again",
+        "despite",
+        "the",
+        "breakfast",
+        "issues"
+      ],
+      "word_count": 9
+    },
+    {
+      "sentence": "The staff were friendly and helpful",
+      "polarity": 0.375,
+      "subjectivity": 0.5,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "staff",
+        "were",
+        "friendly",
+        "and",
+        "helpful"
+      ],
+      "word_count": 6
+    },
+    {
+      "sentence": "The hotel room was clean and comfortable",
+      "polarity": 0.38333333333333336,
+      "subjectivity": 0.75,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "hotel",
+        "room",
+        "was",
+        "clean",
+        "and",
+        "comfortable"
+      ],
+      "word_count": 7
+    },
+    {
+      "sentence": "The location was perfect, close to all attractions",
+      "polarity": 1.0,
+      "subjectivity": 1.0,
+      "sentiment": "positive",
+      "words": [
+        "the",
+        "location",
+        "was",
+        "perfect,",
+        "close",
+        "to",
+        "all",
+        "attractions"
+      ],
+      "word_count": 8
+    }
+  ]
+}

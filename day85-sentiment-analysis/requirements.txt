@@ -1,0 +1,6 @@
+﻿# Day 85 - Sentiment Analysis
+textblob==0.17.1
+nltk==3.8.1
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
