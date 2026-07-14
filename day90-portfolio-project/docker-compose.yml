@@ -1,0 +1,23 @@
+﻿services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: portfolio_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=sqlite:///./data/portfolio.db
+      - DEBUG=True
+    restart: always
+
+  frontend:
+    image: nginx:alpine
+    container_name: portfolio_frontend
+    ports:
+      - "3000:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    restart: always
