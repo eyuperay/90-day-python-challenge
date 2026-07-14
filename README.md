@@ -3520,3 +3520,63 @@ python main.py
 - Report styling
 - Multiple report templates
 - Data visualization in PDFs
+# Day 68 - Image Processing
+
+## About This Project
+This project demonstrates basic image processing operations using Python's Pillow library.
+
+## Features
+- Load and save images
+- Resize images (by dimensions or percentage)
+- Rotate images
+- Flip images (horizontal/vertical)
+- Crop images
+- Apply filters (blur, sharpen)
+- Color adjustments (grayscale, brightness, contrast, saturation)
+- Add watermarks
+- Create thumbnails
+- Display image information
+
+## Operations
+
+### Basic Operations
+- Resize
+- Rotate
+- Flip
+
+### Filter Operations
+- Gaussian Blur
+- Sharpen
+
+### Color Operations
+- Grayscale conversion
+- Brightness adjustment
+- Contrast adjustment
+- Saturation adjustment
+
+### Additional Features
+- Watermark text
+- Thumbnail creation
+- Image info display
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Place an image in the 'input' folder
+Supported: JPG, PNG, BMP, GIF
+
+### 3. Run the program
+python main.py
+
+### 4. Select an image and choose operations
+
+## Learning Objectives
+- Image loading and saving
+- Image manipulation
+- Filter application
+- Color adjustments
+- Watermarking
+- Thumbnail creation
+- Pillow library usage
