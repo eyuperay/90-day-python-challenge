@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/hello">Hello</a>
+        <a href="/users">Users</a>
+        <a href="/form">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Flask Web App</h1>
+        <p>This is a simple web application built with Flask.</p>
+        <p>Current time: {{ now.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+
+        <div class="card">
+            <h2>Sample Users</h2>
+            <ul>
+                {% for user in users %}
+                <li>{{ user.name }} ({{ user.email }})</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Quick Links</h2>
+            <div class="links">
+                <a href="/hello/World" class="btn">Say Hello</a>
+                <a href="/users" class="btn">View All Users</a>
+                <a href="/form" class="btn">Contact Form</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; {{ year }} Flask Web App</p>
+    </footer>
+</body>
+</html>

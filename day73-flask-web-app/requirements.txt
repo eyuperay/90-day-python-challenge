@@ -1,0 +1,2 @@
+﻿# Day 73 - Flask Web App
+Flask==2.3.3

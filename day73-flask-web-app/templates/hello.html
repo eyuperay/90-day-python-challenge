@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/hello">Hello</a>
+        <a href="/users">Users</a>
+        <a href="/form">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Hello Page</h1>
+        
+        {% if name %}
+            <div class="card">
+                <h2>Hello, {{ name }}!</h2>
+                <p>Welcome to the Flask web app!</p>
+            </div>
+        {% else %}
+            <div class="card">
+                <h2>Hello, Guest!</h2>
+                <p>Enter your name in the URL: /hello/YourName</p>
+                <p>Example: <a href="/hello/World">/hello/World</a></p>
+            </div>
+        {% endif %}
+
+        <div class="card">
+            <h2>Try it yourself</h2>
+            <form method="GET" action="/hello">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; {{ now.year }} Flask Web App</p>
+    </footer>
+</body>
+</html>

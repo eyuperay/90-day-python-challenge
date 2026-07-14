@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/hello">Hello</a>
+        <a href="/users">Users</a>
+        <a href="/form">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>About This App</h1>
+        <p>This is a demonstration of a Flask web application.</p>
+        
+        <div class="card">
+            <h2>Features</h2>
+            <ul>
+                <li>Routing with Flask</li>
+                <li>Template rendering with Jinja2</li>
+                <li>Static files (CSS)</li>
+                <li>Form handling</li>
+                <li>API endpoints (JSON)</li>
+                <li>Session management</li>
+                <li>Error handling</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Technologies</h2>
+            <ul>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Jinja2</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; {{ now.year }} Flask Web App</p>
+    </footer>
+</body>
+</html>

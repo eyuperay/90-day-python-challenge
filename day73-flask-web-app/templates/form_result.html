@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/hello">Hello</a>
+        <a href="/users">Users</a>
+        <a href="/form">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Message Sent!</h1>
+        
+        <div class="card success">
+            <p>Thank you for your message!</p>
+        </div>
+
+        <div class="card">
+            <h2>Your Details</h2>
+            <p><strong>Name:</strong> {{ name }}</p>
+            <p><strong>Email:</strong> {{ email }}</p>
+            <p><strong>Message:</strong></p>
+            <p>{{ message }}</p>
+        </div>
+
+        <a href="/form" class="btn">Send Another Message</a>
+    </div>
+
+    <footer>
+        <p>&copy; {{ now.year }} Flask Web App</p>
+    </footer>
+</body>
+</html>
