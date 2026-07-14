@@ -3851,3 +3851,82 @@ http://127.0.0.1:5000
 - Session management
 - Error handling
 - Static files
+
+# Day 74 - Flask Database App
+
+## About This Project
+This project demonstrates a Flask application with SQLAlchemy database for CRUD operations.
+
+## Features
+- User CRUD (Create, Read, Update, Delete)
+- Post CRUD with user relationship
+- SQLite database
+- Flask-SQLAlchemy ORM
+- Form handling with validation
+- Flash messages
+- API endpoints
+- Responsive design
+
+## Models
+
+### User
+- id (Integer, Primary Key)
+- name (String, Required)
+- email (String, Unique, Required)
+- age (Integer, Optional)
+- city (String, Optional)
+- created_at (DateTime)
+- updated_at (DateTime)
+- posts (Relationship)
+
+### Post
+- id (Integer, Primary Key)
+- title (String, Required)
+- content (Text, Required)
+- user_id (Integer, Foreign Key)
+- created_at (DateTime)
+- updated_at (DateTime)
+- author (Relationship)
+
+## Routes
+
+| Route | Method | Description |
+|-------|--------|-------------|
+| `/` | GET | Home page |
+| `/users` | GET | List all users |
+| `/user/add` | GET/POST | Add user |
+| `/user/edit/<id>` | GET/POST | Edit user |
+| `/user/delete/<id>` | GET/POST | Delete user |
+| `/user/<id>` | GET | User detail |
+| `/posts` | GET | List all posts |
+| `/post/add` | GET/POST | Add post |
+| `/post/<id>` | GET | Post detail |
+
+## API Endpoints
+
+| Route | Method | Description |
+|-------|--------|-------------|
+| `/api/users` | GET | All users (JSON) |
+| `/api/users/<id>` | GET | Single user (JSON) |
+| `/api/posts` | GET | All posts (JSON) |
+
+## Usage
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Run the application
+python app.py
+
+### 3. Open browser
+http://127.0.0.1:5000
+
+## Learning Objectives
+- Flask with SQLAlchemy
+- CRUD operations
+- Database relationships
+- Form handling
+- Validation
+- API development
+- Template inheritance
+- Flash messages
