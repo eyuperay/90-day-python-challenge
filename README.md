@@ -3348,3 +3348,73 @@ python server.py --host
 # Custom bind address
 python server.py --bind 192.168.1.100
 
+# Day 65 - Socket Communication
+
+## About This Project
+This project demonstrates TCP socket programming with a simple server-client model and a multi-user chat server.
+
+## Features
+
+### Simple TCP Server/Client
+- TCP server with multi-client support
+- Client connection handling
+- Command support (time, echo, help, quit)
+- Connection logging
+
+### Chat Server/Client
+- Multi-user chat room
+- Nickname support
+- Private messaging (/msg)
+- User list (/users)
+- Broadcast messaging
+- Connection logging
+
+## Usage
+
+### Simple TCP Server
+
+#### Start Server
+python server.py
+python server.py 192.168.1.100 5000
+
+#### Start Client
+python client.py
+python client.py 192.168.1.100 5000
+
+### Chat Server
+
+#### Start Chat Server
+python chat_server.py
+python chat_server.py 192.168.1.100 5001
+
+#### Start Chat Client
+python chat_client.py
+python chat_client.py 192.168.1.100 5001
+
+## Commands
+
+### TCP Server Commands
+| Command | Description |
+|---------|-------------|
+| time | Show server time |
+| echo | Echo your messages |
+| help | Show available commands |
+| quit | Disconnect |
+
+### Chat Commands
+| Command | Description |
+|---------|-------------|
+| /quit | Leave chat |
+| /users | Show online users |
+| /help | Show help |
+| /msg <user> <message> | Send private message |
+| message | Broadcast to everyone |
+
+## Learning Objectives
+- TCP socket programming
+- Client-server architecture
+- Multi-threading for concurrent clients
+- Protocol design
+- Message handling
+- Connection management
+- Real-time communication
