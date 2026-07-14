@@ -4100,9 +4100,59 @@ This is a sample Python package created for demonstration purposes. It provides 
 ## Installation
 
 ### Local Installation
-```bash
+``bash
 # Install in development mode
 pip install -e .
 
 # Build and install from source
 python setup.py install       
+
+# Day 79 - Custom Package Publishing (Simulation)
+
+## About This Project
+This project demonstrates creating, configuring, and publishing a custom Python package using `setuptools`. It simulates the complete package publishing workflow.
+
+## Features
+- Package structure creation
+- setup.py configuration
+- Modular code organization
+- Writing and running tests
+- Package building
+- Virtual environment installation simulation
+- CLI interface
+
+## Package Contents
+
+### Core Module (`core.py`)
+- `greet(name)` - Greeting message
+- `reverse_string(text)` - Reverse a string
+- `count_vowels(text)` - Count vowels in a string
+- `is_palindrome(text)` - Check if a string is a palindrome
+- `factorial(n)` - Calculate factorial
+- `fibonacci(n)` - Generate Fibonacci sequence
+
+### Math Utils Module (`math_utils.py`)
+- Basic math operations (add, subtract, multiply, divide)
+- `power(base, exp)` - Calculate power
+- `sqrt(x)` - Calculate square root
+- `average(numbers)` - Calculate average
+- `median(numbers)` - Calculate median
+- `mode(numbers)` - Find mode
+- `is_prime(n)` - Check if a number is prime
+- `gcd(a, b)` - Greatest common divisor
+- `lcm(a, b)` - Least common multiple
+
+### Utils Module (`utils.py`)
+- `read_file(filename)` - Read file content
+- `write_file(filename, content)` - Write to file
+- `json_to_dict(json_str)` - Parse JSON
+- `dict_to_json(data)` - Convert to JSON
+- `timer` - Function timing decorator
+- `log_function` - Function logging decorator
+
+## Usage
+
+### 1. Install Package in Development Mode
+``bash
+pip install -e .
+
