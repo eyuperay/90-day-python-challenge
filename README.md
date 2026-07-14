@@ -3705,3 +3705,42 @@ python main.py
 - Secure storage
 - CLI application
 - Password management
+
+# Day 71 - Tkinter Calculator
+
+## About This Project
+This project demonstrates a simple calculator with GUI using Python's built-in tkinter module.
+
+## Features
+- Basic arithmetic operations (+, -, ×, ÷)
+- Percentage calculation (%)
+- Sign toggle (±)
+- Decimal point
+- Backspace
+- Clear all (C)
+- Keyboard support
+- Responsive GUI
+
+## Keyboard Shortcuts
+| Key | Action |
+|-----|--------|
+| 0-9 | Enter numbers |
+| + - * / | Operators |
+| . | Decimal point |
+| Enter | Calculate |
+| Backspace | Delete last character |
+| Escape | Clear all |
+
+## Usage
+
+### 1. Run the program
+python calculator.py
+
+## Learning Objectives
+- Tkinter GUI development
+- Event handling
+- Grid layout
+- Button creation
+- Keyboard bindings
+- Calculator logic
+- Error handling
