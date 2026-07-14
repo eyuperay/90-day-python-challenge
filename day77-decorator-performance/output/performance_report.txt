@@ -1,0 +1,36 @@
+============================================================
+PERFORMANCE REPORT
+============================================================
+Report Generated: 2026-07-14 15:57:51
+Total Calls: 4
+Total Time: 0.6953s
+============================================================
+
+Function: slow_function
+----------------------------------------
+  Calls: 1
+  Total Time: 0.6769s
+  Average Time: 0.6769s
+  Min Time: 0.6769s
+  Max Time: 0.6769s
+  Last Call: 2026-07-14T15:57:49.922976
+
+Function: calculate_power
+----------------------------------------
+  Calls: 2
+  Total Time: 0.0003s
+  Average Time: 0.0001s
+  Min Time: 0.0001s
+  Max Time: 0.0002s
+  Last Call: 2026-07-14T15:57:49.923818
+
+Function: complex_operation
+----------------------------------------
+  Calls: 1
+  Total Time: 0.0181s
+  Average Time: 0.0181s
+  Min Time: 0.0181s
+  Max Time: 0.0181s
+  Last Call: 2026-07-14T15:57:51.970790
+
+============================================================
