@@ -4294,3 +4294,45 @@ This project demonstrates building and training neural networks using TensorFlow
 ``bash
 pip install -r requirements.txt
 
+# Day 84 - NLP Text Preprocessing
+
+## About This Project
+This project demonstrates text preprocessing techniques for Natural Language Processing (NLP) using NLTK.
+
+## Features
+- Text cleaning (lowercase, punctuation removal)
+- Tokenization (word and sentence)
+- Stopword removal
+- Stemming
+- Lemmatization
+- Word frequency analysis
+- Full preprocessing pipeline
+
+## NLP Concepts
+
+### Text Cleaning
+- Lowercase conversion
+- Remove punctuation, numbers, special characters
+- Remove extra whitespace
+
+### Tokenization
+- Word tokenization: split text into words
+- Sentence tokenization: split text into sentences
+
+### Stopword Removal
+- Remove common words (the, is, at, etc.)
+- Reduces noise and improves efficiency
+
+### Stemming
+- Reduce words to root form (running -> run)
+- Fast but can be imprecise
+
+### Lemmatization
+- Reduce words to dictionary form (running -> run)
+- More accurate but slower
+
+## Usage
+
+### 1. Install dependencies
+``bash
+pip install -r requirements.txt
