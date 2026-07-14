@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Web Server</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Python Web Server</h1>
+        <p class="subtitle">Built with Python's http.server module</p>
+        
+        <div class="card">
+            <h2>Server Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">Status:</span>
+                    <span class="value" id="status">Online</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Time:</span>
+                    <span class="value" id="time">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Server:</span>
+                    <span class="value">Python SimpleHTTPServer</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>API Endpoints</h2>
+            <ul class="api-list">
+                <li>
+                    <span class="method get">GET</span>
+                    <a href="/api/time">/api/time</a>
+                    <span class="desc">- Get current server time</span>
+                </li>
+                <li>
+                    <span class="method get">GET</span>
+                    <a href="/api/info">/api/info</a>
+                    <span class="desc">- Get server information</span>
+                </li>
+                <li>
+                    <span class="method get">GET</span>
+                    <a href="/api/headers">/api/headers</a>
+                    <span class="desc">- Get request headers</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Quick Links</h2>
+            <div class="link-grid">
+                <a href="/" class="link-btn">Home</a>
+                <a href="/api/time" class="link-btn" target="_blank">Time API</a>
+                <a href="/api/info" class="link-btn" target="_blank">Info API</a>
+                <a href="/api/headers" class="link-btn" target="_blank">Headers API</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Python Simple Web Server &copy; 2026</p>
+        </footer>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>

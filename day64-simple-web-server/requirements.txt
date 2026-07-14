@@ -1,0 +1,3 @@
+﻿# Day 64 - Simple Web Server
+# Uses only built-in modules: http.server, socketserver, os, datetime
+# No external dependencies needed
