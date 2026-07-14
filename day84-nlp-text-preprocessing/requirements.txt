@@ -1,0 +1,5 @@
+﻿# Day 84 - NLP Text Preprocessing
+nltk==3.8.1
+spacy==3.7.2
+pandas==2.0.3
+numpy==1.24.3
