@@ -4613,3 +4613,38 @@ This project demonstrates creating a CI/CD pipeline using GitHub Actions with au
 ### 1. Install dependencies
 ``bash
 pip install -r requirements.txt
+
+# Day 90 - Portfolio Project
+
+## About This Project
+This is the final project of the 90-day Python challenge. It combines everything learned throughout the journey into a full-stack portfolio application.
+
+## Features
+- REST API with FastAPI
+- SQLite/PostgreSQL database
+- Frontend with HTML, CSS, JavaScript
+- Docker containerization
+- GitHub Actions CI/CD
+- CRUD operations for projects, skills, experiences
+- Interactive dashboard
+
+## Technologies Used
+
+### Backend
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Uvicorn
+
+### Frontend
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Fetch API
+
+### DevOps
+- Docker
+- Docker Compose
+- GitHub Actions
+
+## Project Structure
