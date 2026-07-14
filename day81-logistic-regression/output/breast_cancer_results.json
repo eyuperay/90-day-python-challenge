@@ -1,0 +1,168 @@
+{
+  "data_split": {
+    "train_size": 455,
+    "test_size": 114,
+    "total_samples": 569
+  },
+  "model_params": {
+    "C": 1.0,
+    "max_iter": 1000,
+    "solver": "lbfgs",
+    "penalty": "l2",
+    "coef": [
+      [
+        -0.511479010884971,
+        -0.5526977534575273,
+        -0.47629788561011666,
+        -0.5410592418248745,
+        -0.21247927490645085,
+        0.648341587266056,
+        -0.6021029069732785,
+        -0.704156489195534,
+        -0.1672327296082462,
+        0.19973173298709324,
+        -1.0829653362483975,
+        0.24882301055624817,
+        -0.5443332277221048,
+        -0.9291040183411311,
+        -0.16027571018544354,
+        0.647226557630866,
+        0.16056252377741345,
+        -0.4437842359980596,
+        0.36049155541961,
+        0.43789426057957387,
+        -0.9476161496027705,
+        -1.255088041690125,
+        -0.763220072443888,
+        -0.9477559027621573,
+        -0.7466248092149421,
+        0.05551412476312863,
+        -0.8231506462671373,
+        -0.9536863642145657,
+        -0.9391814052053151,
+        -0.18725079733765845
+      ]
+    ],
+    "intercept": [
+      0.3022075735370298
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.9824561403508771,
+    "precision": 0.9824561403508771,
+    "recall": 0.9824561403508771,
+    "f1_score": 0.9824561403508771,
+    "roc_auc": 0.9953703703703703
+  },
+  "confusion_matrix": [
+    [
+      41,
+      1
+    ],
+    [
+      1,
+      71
+    ]
+  ],
+  "classification_report": {
+    "malignant": {
+      "precision": 0.9761904761904762,
+      "recall": 0.9761904761904762,
+      "f1-score": 0.9761904761904762,
+      "support": 42.0
+    },
+    "benign": {
+      "precision": 0.9861111111111112,
+      "recall": 0.9861111111111112,
+      "f1-score": 0.9861111111111112,
+      "support": 72.0
+    },
+    "accuracy": 0.9824561403508771,
+    "macro avg": {
+      "precision": 0.9811507936507937,
+      "recall": 0.9811507936507937,
+      "f1-score": 0.9811507936507937,
+      "support": 114.0
+    },
+    "weighted avg": {
+      "precision": 0.9824561403508771,
+      "recall": 0.9824561403508771,
+      "f1-score": 0.9824561403508771,
+      "support": 114.0
+    }
+  },
+  "cross_validation": {
+    "cv_scores": [
+      0.967032967032967,
+      0.978021978021978,
+      0.967032967032967,
+      1.0,
+      0.989010989010989
+    ],
+    "cv_mean": 0.9802197802197803,
+    "cv_std": 0.012815278889769896
+  },
+  "feature_importance": {
+    "feature": {
+      "21": "worst texture",
+      "10": "radius error",
+      "27": "worst concave points",
+      "23": "worst area",
+      "20": "worst radius",
+      "28": "worst symmetry",
+      "13": "area error",
+      "26": "worst concavity",
+      "22": "worst perimeter",
+      "24": "worst smoothness"
+    },
+    "coefficient": {
+      "21": -1.255088041690125,
+      "10": -1.0829653362483975,
+      "27": -0.9536863642145657,
+      "23": -0.9477559027621573,
+      "20": -0.9476161496027705,
+      "28": -0.9391814052053151,
+      "13": -0.9291040183411311,
+      "26": -0.8231506462671373,
+      "22": -0.763220072443888,
+      "24": -0.7466248092149421
+    }
+  },
+  "timestamp": "2026-07-14T17:05:46.993776",
+  "features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "target_names": [
+    "malignant",
+    "benign"
+  ]
+}
