@@ -3306,3 +3306,45 @@ python main.py
 ## Output Formats
 
 ### Text Report (system_report.txt)
+
+# Day 64 - Simple Web Server
+
+## About This Project
+This project demonstrates building a simple web server using Python's built-in `http.server` module with custom routing, logging, and API endpoints.
+
+## Features
+- Static file serving (HTML, CSS, JavaScript)
+- Custom routing
+- API endpoints
+- Request logging
+- JSON responses
+- Cross-origin support
+
+## API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | Main HTML page |
+| `/style.css` | GET | CSS styles |
+| `/script.js` | GET | JavaScript |
+| `/api/time` | GET | Current server time |
+| `/api/info` | GET | Server information |
+| `/api/headers` | GET | Request headers |
+
+## Usage
+
+### 1. Start the server
+
+bash
+# Default port 8000
+python server.py
+
+# Custom port
+python server.py --port 8080
+
+# Bind to all interfaces
+python server.py --host
+
+# Custom bind address
+python server.py --bind 192.168.1.100
+
