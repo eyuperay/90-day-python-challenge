@@ -1,0 +1,3 @@
+﻿# Day 72 - Tkinter Notepad
+# Uses only built-in tkinter module
+# No external dependencies needed
