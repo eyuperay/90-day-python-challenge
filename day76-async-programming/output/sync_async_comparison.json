@@ -1,0 +1,25 @@
+{
+  "sync_time": 11.684035062789917,
+  "async_time": 1.9731638431549072,
+  "speedup": 5.92147231124417,
+  "sync_results": [
+    "Task 0 completed in 1.1063137568897234s",
+    "Task 1 completed in 0.8963234222693981s",
+    "Task 2 completed in 1.5359559047220845s",
+    "Task 3 completed in 1.9374430824433344s",
+    "Task 4 completed in 1.6654106822762205s",
+    "Task 5 completed in 0.9975404828282418s",
+    "Task 6 completed in 1.8972776330333077s",
+    "Task 7 completed in 1.643739182024761s"
+  ],
+  "async_results": [
+    "Task 0 completed in 1.8673722166977136s",
+    "Task 1 completed in 1.9718769405938161s",
+    "Task 2 completed in 1.163939704319647s",
+    "Task 3 completed in 1.3607820355003317s",
+    "Task 4 completed in 1.5884936005500303s",
+    "Task 5 completed in 1.1600487920017932s",
+    "Task 6 completed in 1.7708082132030478s",
+    "Task 7 completed in 1.1967260260541868s"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "async_time": 0.6031153202056885,
+  "results": [
+    {
+      "url": "https://httpbin.org/get",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5843830108642578,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/ip",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.578416109085083,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/user-agent",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5789227485656738,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/headers",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5887820720672607,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/status/200",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5900280475616455,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/delay/1",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5984053611755371,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/delay/2",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5984046459197998,
+      "success": false
+    },
+    {
+      "url": "https://httpbin.org/delay/3",
+      "status": 503,
+      "content_length": 162,
+      "time": 0.5776336193084717,
+      "success": false
+    }
+  ],
+  "successful": 0,
+  "total": 8
+}

@@ -1,0 +1,2 @@
+﻿# Day 76 - Async Programming
+aiohttp==3.9.1
