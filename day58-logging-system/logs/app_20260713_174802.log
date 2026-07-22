@@ -1,6 +1,0 @@
-2026-07-13 17:48:02 | INFO     | main.py:56 | App logger: Application started
-2026-07-13 17:48:02 | INFO     | main.py:94 | Factory: Application ready
-2026-07-13 17:48:02 | DEBUG    | main.py:95 | Factory: Debug mode enabled
-2026-07-13 17:48:03 | INFO     | main.py:192 | Application starting...
-2026-07-13 17:48:03 | CRITICAL | main.py:217 | Application cannot continue without database
-2026-07-13 17:48:03 | INFO     | main.py:219 | Application shutting down...

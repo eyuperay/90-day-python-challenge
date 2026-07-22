@@ -1,6 +1,0 @@
-2026-07-13 17:48:02 | DEBUG    | logger_config.py:182 | Calling: calculate_sum()
-2026-07-13 17:48:02 | DEBUG    | logger_config.py:185 | Completed: calculate_sum()
-2026-07-13 17:48:02 | DEBUG    | logger_config.py:182 | Calling: calculate_sum()
-2026-07-13 17:48:02 | DEBUG    | logger_config.py:185 | Completed: calculate_sum()
-2026-07-13 17:48:02 | DEBUG    | logger_config.py:182 | Calling: divide_numbers()
-2026-07-13 17:48:02 | ERROR    | logger_config.py:188 | Error in divide_numbers(): Cannot divide by zero

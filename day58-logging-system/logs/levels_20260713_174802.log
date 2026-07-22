@@ -1,7 +1,0 @@
-2026-07-13 17:48:02 | DEBUG    | main.py:109 |   DEBUG - Detailed information
-2026-07-13 17:48:02 | INFO     | main.py:110 |   INFO - General information
-2026-07-13 17:48:02 | WARNING  | main.py:111 |   WARNING - Warning messages
-2026-07-13 17:48:02 | ERROR    | main.py:112 |   ERROR - Error messages
-2026-07-13 17:48:02 | CRITICAL | main.py:113 |   CRITICAL - Critical errors
-2026-07-13 17:48:02 | WARNING  | main.py:119 |   This WARNING message WILL appear
-2026-07-13 17:48:02 | ERROR    | main.py:120 |   This ERROR message WILL appear
